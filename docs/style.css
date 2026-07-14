@@ -230,11 +230,41 @@ h1 {
 .live-summary-table .target-cell {
   font-weight: 700;
 }
-.live-summary-table .target-name {
-  display: block;
-  font-weight: 400;
-  font-size: 0.78rem;
-  color: var(--text-muted);
+
+/* 手機版：改成一列一張卡（label: value），避免要左右拉才看得到完整表格 */
+@media (max-width: 560px) {
+  .live-summary-table thead { display: none; }
+  .live-summary-table, .live-summary-table tbody, .live-summary-table tr, .live-summary-table td {
+    display: block;
+    width: 100%;
+  }
+  .live-summary-table tr {
+    margin-bottom: 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.2rem 0.8rem;
+    background: var(--card-bg);
+  }
+  .live-summary-table tr:last-child { margin-bottom: 0; }
+  .live-summary-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px dashed var(--border);
+  }
+  .live-summary-table td:last-child { border-bottom: none; }
+  .live-summary-table td::before {
+    content: attr(data-label);
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .live-summary-table td.target-cell {
+    font-size: 1.05rem;
+  }
 }
 
 .chart-card { padding: 1.2rem; }
@@ -649,6 +679,27 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 0.75rem;
   margin-bottom: 1.5rem;
+}
+
+/* 首頁選標的物：手機上固定 2 欄，不要因為 minmax 太寬而擠成 1 欄 */
+@media (max-width: 560px) {
+  .target-picker-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  .target-picker-grid .strategy-card {
+    padding: 0.75rem 0.6rem;
+  }
+  .target-picker-grid .strategy-key {
+    font-size: 1.1rem;
+  }
+  .target-picker-grid .strategy-subtitle {
+    font-size: 0.75rem;
+  }
+  .target-picker-grid .strategy-desc {
+    font-size: 0.72rem;
+    padding-left: 1rem;
+  }
 }
 .strategy-card {
   background: var(--card-bg);

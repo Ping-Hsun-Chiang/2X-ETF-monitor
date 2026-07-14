@@ -1,6 +1,6 @@
 const POSITION_ZH = { CASH: '空手', HALF: '半倉', FULL: '滿倉' };
 const POSITION_BADGE_CLASS = { CASH: '', HALF: 'half', FULL: 'full' };
-const STRATEGY_LABEL = { I: '策略 I', III: '策略 III' };
+const STRATEGY_LABEL = { I: 'I', III: 'III' };
 
 function fmtCurrency(n) {
   if (typeof n !== 'number') return '-';
@@ -103,6 +103,7 @@ function renderLiveSummary(results) {
   const rows = results.map(({ target, strategy, data }) => {
     const s = data.summary || {};
     const totalDeposits = s.total_deposits || 0;
+    const marketValue = s.market_value || 0;
     const totalAssets = s.total_assets || 0;
     const pnl = totalAssets - totalDeposits;
     const pnlPct = totalDeposits > 0 ? (pnl / totalDeposits) * 100 : 0;
@@ -112,12 +113,13 @@ function renderLiveSummary(results) {
 
     return `
       <tr>
-        <td class="target-cell">${target.id}<span class="target-name">${target.name}</span></td>
-        <td>${STRATEGY_LABEL[strategy] || strategy}</td>
-        <td><span class="pos-badge ${badgeCls}">${POSITION_ZH[position] || position}</span></td>
-        <td>${fmtCurrency(totalDeposits)}</td>
-        <td>${fmtCurrency(totalAssets)}</td>
-        <td class="${pnlCls}"><strong>${fmtCurrency(pnl)}</strong>（${fmtPct(pnlPct)}）</td>
+        <td class="target-cell" data-label="標的物">${target.id}</td>
+        <td data-label="策略">${STRATEGY_LABEL[strategy] || strategy}</td>
+        <td data-label="目前部位"><span class="pos-badge ${badgeCls}">${POSITION_ZH[position] || position}</span></td>
+        <td data-label="累積投入">${fmtCurrency(totalDeposits)}</td>
+        <td data-label="目前市值">${fmtCurrency(marketValue)}</td>
+        <td data-label="目前總資產">${fmtCurrency(totalAssets)}</td>
+        <td data-label="損益" class="${pnlCls}"><strong>${fmtCurrency(pnl)}</strong>（${fmtPct(pnlPct)}）</td>
       </tr>
     `;
   }).join('');
@@ -131,6 +133,7 @@ function renderLiveSummary(results) {
           <th>目前部位</th>
           <th>累積投入</th>
           <th>目前市值</th>
+          <th>目前總資產</th>
           <th>損益</th>
         </tr>
       </thead>
