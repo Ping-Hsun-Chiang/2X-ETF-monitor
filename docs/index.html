@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <main class="container">
+  <main class="container container-wide">
     <header>
       <h1>2X ETF 波段訊號監控</h1>
       <p class="subtitle">選擇標的物，查看訊號監控 / 年度回測 / 策略對照 / 大盤比較</p>
@@ -17,6 +17,17 @@
     <div id="target-cards" class="strategy-cards">
       <p class="muted small" style="grid-column: 1 / -1;">載入標的物清單中…</p>
     </div>
+
+    <section class="section-header">
+      <h2>實盤模擬成效</h2>
+      <p class="subtitle" id="live-summary-subtitle">-</p>
+    </section>
+
+    <section class="card">
+      <div id="live-summary-wrapper" class="pivot-wrapper">
+        <p class="muted small">載入實盤資料中…</p>
+      </div>
+    </section>
 
     <footer>
       <div class="disclaimer">本頁面僅為個人策略回測顯示用途，非投資建議。</div>

@@ -1,10 +1,30 @@
+const POSITION_ZH = { CASH: '空手', HALF: '半倉', FULL: '滿倉' };
+const POSITION_BADGE_CLASS = { CASH: '', HALF: 'half', FULL: 'full' };
+const STRATEGY_LABEL = { I: '策略 I', III: '策略 III' };
+
+function fmtCurrency(n) {
+  if (typeof n !== 'number') return '-';
+  const abs = Math.abs(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
+  if (n > 0) return `+${abs}`;
+  if (n < 0) return `-${abs}`;
+  return `${abs}`;
+}
+
+function fmtPct(n) {
+  if (typeof n !== 'number') return '-';
+  const sign = n > 0 ? '+' : '';
+  return `${sign}${n.toFixed(2)}%`;
+}
+
 async function loadTargets() {
   const el = document.getElementById('target-cards');
   try {
     const resp = await fetch(`./targets.json?t=${Date.now()}`, { cache: 'no-store' });
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const cfg = await resp.json();
-    renderTargets(cfg.targets || []);
+    const targets = cfg.targets || [];
+    renderTargets(targets);
+    loadLiveSummary(targets);
   } catch (err) {
     console.error('Failed to load targets.json:', err);
     if (el) el.innerHTML = '<p class="muted small" style="grid-column: 1 / -1;">標的物清單載入失敗。</p>';
@@ -30,6 +50,93 @@ function renderTargets(targets) {
       </ul>
     </a>
   `).join('');
+}
+
+async function loadLiveSummary(targets) {
+  const wrapper = document.getElementById('live-summary-wrapper');
+  if (!wrapper) return;
+
+  const files = [
+    { strategy: 'I', file: 'live_trades.json' },
+    { strategy: 'III', file: 'live_trades_iii.json' },
+  ];
+
+  const fetches = [];
+  targets.forEach((t) => {
+    files.forEach(({ strategy, file }) => {
+      fetches.push(
+        fetch(`./${t.id}/${file}?t=${Date.now()}`, { cache: 'no-store' })
+          .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
+          .then((data) => ({ target: t, strategy, data }))
+          .catch((err) => {
+            console.error(`Failed to load ${t.id}/${file}:`, err);
+            return null;
+          })
+      );
+    });
+  });
+
+  const results = (await Promise.all(fetches)).filter(Boolean);
+  renderLiveSummary(results);
+}
+
+function renderLiveSummary(results) {
+  const wrapper = document.getElementById('live-summary-wrapper');
+  const subtitle = document.getElementById('live-summary-subtitle');
+  if (!wrapper) return;
+
+  if (!results.length) {
+    wrapper.innerHTML = '<p class="muted small">實盤資料載入失敗。</p>';
+    return;
+  }
+
+  const liveStart = results[0].data.live_start_date;
+  const asOf = results.map((r) => r.data.as_of_date).sort().slice(-1)[0];
+  if (subtitle) subtitle.textContent = `自實盤模擬啟動日 ${liveStart} 起，策略 I / III 於各標的的累積成效｜資料截至 ${asOf}`;
+
+  // 依標的、策略排序，同一標的的兩個策略排在一起
+  results.sort((a, b) => {
+    if (a.target.id !== b.target.id) return a.target.id < b.target.id ? -1 : 1;
+    return a.strategy < b.strategy ? -1 : 1;
+  });
+
+  const rows = results.map(({ target, strategy, data }) => {
+    const s = data.summary || {};
+    const totalDeposits = s.total_deposits || 0;
+    const totalAssets = s.total_assets || 0;
+    const pnl = totalAssets - totalDeposits;
+    const pnlPct = totalDeposits > 0 ? (pnl / totalDeposits) * 100 : 0;
+    const pnlCls = pnl > 0 ? 'pos' : pnl < 0 ? 'neg' : 'zero';
+    const position = data.current_round ? data.current_round.position_taken : 'CASH';
+    const badgeCls = POSITION_BADGE_CLASS[position] || '';
+
+    return `
+      <tr>
+        <td class="target-cell">${target.id}<span class="target-name">${target.name}</span></td>
+        <td>${STRATEGY_LABEL[strategy] || strategy}</td>
+        <td><span class="pos-badge ${badgeCls}">${POSITION_ZH[position] || position}</span></td>
+        <td>${fmtCurrency(totalDeposits)}</td>
+        <td>${fmtCurrency(totalAssets)}</td>
+        <td class="${pnlCls}"><strong>${fmtCurrency(pnl)}</strong>（${fmtPct(pnlPct)}）</td>
+      </tr>
+    `;
+  }).join('');
+
+  wrapper.innerHTML = `
+    <table class="pivot-table live-summary-table">
+      <thead>
+        <tr>
+          <th>標的物</th>
+          <th>策略</th>
+          <th>目前部位</th>
+          <th>累積投入</th>
+          <th>目前市值</th>
+          <th>損益</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
 }
 
 if (document.readyState === 'loading') {

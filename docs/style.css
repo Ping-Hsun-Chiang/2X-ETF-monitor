@@ -207,6 +207,36 @@ h1 {
   color: var(--pos-full-fg);
 }
 
+.pos-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  background: var(--pos-cash-bg);
+  color: var(--pos-cash-fg);
+  white-space: nowrap;
+}
+.pos-badge.half { background: var(--pos-half-bg); color: var(--pos-half-fg); }
+.pos-badge.full { background: var(--pos-full-bg); color: var(--pos-full-fg); }
+
+.live-summary-table th, .live-summary-table td {
+  text-align: right;
+}
+.live-summary-table th:nth-child(1), .live-summary-table th:nth-child(2), .live-summary-table th:nth-child(3),
+.live-summary-table td:nth-child(1), .live-summary-table td:nth-child(2), .live-summary-table td:nth-child(3) {
+  text-align: left;
+}
+.live-summary-table .target-cell {
+  font-weight: 700;
+}
+.live-summary-table .target-name {
+  display: block;
+  font-weight: 400;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
 .chart-card { padding: 1.2rem; }
 
 .chart-header {
