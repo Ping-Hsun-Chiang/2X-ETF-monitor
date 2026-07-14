@@ -1,0 +1,52 @@
+{
+  "stock_id": "00631L",
+  "live_start_date": "2026-07-13",
+  "as_of_date": "2026-07-13",
+  "summary": {
+    "num_completed_rounds": 0,
+    "total_realized_pnl": 0,
+    "total_deposits": 20000.0,
+    "capital_pool": 0.0,
+    "market_value": 20000.0,
+    "total_assets": 20000.0,
+    "current_open_pnl": 0.0
+  },
+  "trades": [
+    {
+      "date": "2026-07-13",
+      "action": "BUY_TRANCHE_1",
+      "action_zh": "第一批買進",
+      "price": 36.86,
+      "capital_before": 20000.0,
+      "capital_after": 10000.0,
+      "invested_amount": 10000.0,
+      "shares_after": 271.2968,
+      "avg_cost_after": 36.86
+    },
+    {
+      "date": "2026-07-13",
+      "action": "BUY_TRANCHE_2",
+      "action_zh": "第二批加碼",
+      "price": 36.86,
+      "capital_before": 10000.0,
+      "capital_after": 0.0,
+      "invested_amount": 10000.0,
+      "shares_after": 542.5936,
+      "avg_cost_after": 36.86
+    }
+  ],
+  "rounds": [],
+  "current_round": {
+    "entry_date": "2026-07-13",
+    "initial_capital": 20000.0,
+    "shares": 542.5936,
+    "avg_cost": 36.86,
+    "total_invested": 20000.0,
+    "market_value": 20000.0,
+    "current_pnl": 0.0,
+    "current_pnl_pct": 0.0,
+    "position_taken": "FULL",
+    "ma60_alerted": false
+  },
+  "updated_at": "2026-07-13T16:16:03Z"
+}

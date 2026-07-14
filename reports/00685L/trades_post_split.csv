@@ -1,0 +1,3 @@
+date,action,price,capital_before,capital_after,invested_amount,shares_before,shares_after,avg_cost_before,avg_cost_after
+2026-07-07,BUY_TRANCHE_1,12.23,20000.0,10000.0,10000.0,0.0,817.6615,0.0,12.23
+2026-07-07,BUY_TRANCHE_2,12.23,10000.0,0.0,10000.0,817.6615,1635.323,12.23,12.23
