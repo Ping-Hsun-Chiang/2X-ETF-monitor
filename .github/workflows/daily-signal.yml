@@ -1,0 +1,50 @@
+name: Daily Signal Update
+
+on:
+  schedule:
+    # 週一至週五 UTC 06:00 = 台北時間 14:00（台股 13:30 收盤後緩衝 30 分鐘）
+    - cron: "0 6 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-signal
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily update for every target
+        run: python -m src.daily_update
+
+      - name: Commit if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 若 data/ 與 docs/ 都沒變化，代表今天所有標的皆無新交易日資料，跳過 commit
+          if git diff --quiet -- data/ docs/; then
+            echo "No new trading data for any target; skipping commit."
+            exit 0
+          fi
+
+          TODAY=$(date -u +%Y-%m-%d)
+          CHANGED_TARGETS=$(git diff --name-only -- data/ docs/ | grep -oE '(data|docs)/[^/]+' | sed -E 's#^(data|docs)/##' | sort -u | tr '\n' ' ')
+          git add data/ docs/
+          git commit -m "chore: daily signal update ${TODAY} (${CHANGED_TARGETS})"
+          git push
