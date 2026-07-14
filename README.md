@@ -2,25 +2,22 @@
 
 以 MA5（週線）/ MA20（月線）/ MA60（季線）為進出場依據、每月固定入金、**資本池動態分批投入** 的波段訊號監控，支援多檔 2x 槓桿 ETF 標的物。每個交易日收盤後由 GitHub Actions 自動抓資料、計算訊號、更新網頁。**純顯示用途，非投資建議、不自動下單。**
 
-這個 repo 取代了原本一檔標的一個 repo（`00631L-monitor`、`00685L-monitor`）的做法：所有標的共用同一套策略邏輯、同一套前端、同一個每日排程，差別只在 `targets.json` 裡的幾個欄位。新增標的物不需要開新 repo，見下方「如何新增標的物」。
-
 ## 線上資源
 
-- 網站（選標的物入口）：<https://ping-hsun-chiang.github.io/2X-ETF-monitor/>
+- 網站：<https://ping-hsun-chiang.github.io/2X-ETF-monitor/>
 - 各標的物頁面：`/{標的代號}/`（例：`/00631L/`），每個標的都有：
-  - `index.html` — 今日訊號監控（策略 I / III 雙軌）
+  - `index.html` — 當日訊號監控（策略 I / III）
   - `annual.html` — 主策略年度回測投報率
-  - `comparison.html` — 五策略回測對照 (I~V)
+  - `comparison.html` — 五種策略回測對照 (策略 I~V)
   - `dca.html` — 持續投入 · 大盤比較
-- JSON 端點：每個標的物在 `docs/{id}/` 下各有一份 `latest.json`、`history.json`、`live_trades.json`、`annual_backtest.json` 等（欄位與舊版單標的 repo 相同）
+- JSON 端點：每個標的物在 `docs/{id}/` 下各有一份 `latest.json`、`history.json`、`live_trades.json`、`annual_backtest.json` 等
 - Actions 記錄：<https://github.com/Ping-Hsun-Chiang/2X-ETF-monitor/actions>
 
 ## 資金模型
 
-- **月度入金**：每月第一個交易日，資本池自動 +20,000（模擬發薪投入）
+- **月度入金**：每月第一個交易日，資本池自動 +20,000
 - **資本池**：可自由累積。沒觸發訊號的月份錢會攢在池裡，觸發時一次投出（例：3 個月沒訊號後池子 60,000，觸發時第一批投 30,000、第二批把剩 30,000 投出）
 - **獲利複利**：出場後全部持股 × 出場價回到資本池，下輪進場基數變大
-- 沒有月度上限
 
 ## 策略邏輯（策略 I，各標的通用）
 
@@ -37,7 +34,7 @@
 - 同一天可以連鎖觸發（例：當日已跌破 MA5 又跌破 MA20 → 同日先第一批再第二批）
 - 進場當日不允許同日出場，至少留隔一交易日
 - MA60 警戒：只在**有部位 & 本輪首次跌破**時觸發，之後同輪內不再重報，是否手動加碼由使用者自行判斷
-- 損益率 = (當前收盤 / 持股均價) - 1；達 +7.5% 全數 sell
+- 損益率 = (當前收盤 / 持股均價) - 1；達獲利條件時全數出清
 
 ## 專案結構
 
