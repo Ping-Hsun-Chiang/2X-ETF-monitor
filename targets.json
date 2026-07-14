@@ -1,0 +1,19 @@
+{
+  "benchmark": "0050",
+  "targets": [
+    {
+      "id": "00631L",
+      "name": "元大台灣50正2",
+      "listing_date": "2014-10-31",
+      "split_date": "2026-03-31",
+      "split_ratio": 22
+    },
+    {
+      "id": "00685L",
+      "name": "群益臺灣加權正2",
+      "listing_date": "2017-03-30",
+      "split_date": "2026-07-07",
+      "split_ratio": 24
+    }
+  ]
+}

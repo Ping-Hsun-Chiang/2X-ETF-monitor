@@ -1,18 +1,41 @@
 {
   "stock_id": "00631L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-07-13",
+  "as_of_date": "2026-07-14",
   "summary": {
     "num_completed_rounds": 0,
     "total_realized_pnl": 0,
     "total_deposits": 20000.0,
-    "capital_pool": 20000.0,
-    "market_value": 0.0,
+    "capital_pool": 10000.0,
+    "market_value": 10000.0,
     "total_assets": 20000.0,
     "current_open_pnl": 0.0
   },
-  "trades": [],
+  "trades": [
+    {
+      "date": "2026-07-14",
+      "action": "BUY_TRANCHE_1",
+      "action_zh": "第一批買進",
+      "price": 35.88,
+      "capital_before": 20000.0,
+      "capital_after": 10000.0,
+      "invested_amount": 10000.0,
+      "shares_after": 278.7068,
+      "avg_cost_after": 35.88
+    }
+  ],
   "rounds": [],
-  "current_round": null,
-  "updated_at": "2026-07-13T16:16:03Z"
+  "current_round": {
+    "entry_date": "2026-07-14",
+    "initial_capital": 20000.0,
+    "shares": 278.7068,
+    "avg_cost": 35.88,
+    "total_invested": 10000.0,
+    "market_value": 10000.0,
+    "current_pnl": 0.0,
+    "current_pnl_pct": 0.0,
+    "position_taken": "HALF",
+    "ma60_alerted": false
+  },
+  "updated_at": "2026-07-14T17:35:09Z"
 }
