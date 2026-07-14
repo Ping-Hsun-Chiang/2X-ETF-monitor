@@ -124,7 +124,7 @@ function renderLiveSummary(results) {
         <td data-label="投入本金">${fmtNumber(totalDeposits)}</td>
         <td data-label="倉位市值">${fmtNumber(marketValue)}</td>
         <td data-label="目前總資產">${fmtNumber(totalAssets)}</td>
-        <td data-label="目前總損益" class="${pnlCls}"><strong>${fmtCurrency(pnl)}</strong> (${fmtPct(pnlPct)})</td>
+        <td data-label="目前總損益" class="${pnlCls}"><span><strong>${fmtCurrency(pnl)}</strong> (${fmtPct(pnlPct)})</span></td>
       </tr>
     `;
   }).join('');
