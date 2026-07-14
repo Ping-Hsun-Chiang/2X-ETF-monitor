@@ -1,0 +1,977 @@
+{
+  "stock_id": "00675L",
+  "years": [
+    {
+      "year": 2024,
+      "start_date": "2024-01-02",
+      "end_date": "2024-12-31",
+      "baseline_adjusted": 60.7,
+      "trigger_first_pct": 5.0,
+      "trigger_second_pct": 10.0,
+      "strategy_a": {
+        "months_deposited": 12,
+        "total_deposits": 240000.0,
+        "end_close": 95.8,
+        "end_capital_pool": 100000.0,
+        "end_shares": 1576.5972,
+        "end_avg_cost": 105.6121,
+        "end_market_value": 151038.01,
+        "end_total_assets": 251038.01,
+        "year_gain": 11038.01,
+        "return_pct": 4.6,
+        "realized_pnl": 26507.8,
+        "unrealized_pnl": -15469.79,
+        "num_trades": 17,
+        "num_completed_rounds": 6,
+        "trades": [
+          {
+            "date": "2024-01-02",
+            "action": "BUY_TRANCHE_1",
+            "price": 60.7,
+            "invested_amount": 10000.0,
+            "capital_after": 10000.0,
+            "shares_after": 164.7446,
+            "avg_cost_after": 60.7
+          },
+          {
+            "date": "2024-01-03",
+            "action": "BUY_TRANCHE_2",
+            "price": 59.05,
+            "invested_amount": 10000.0,
+            "capital_after": 0.0,
+            "shares_after": 334.0927,
+            "avg_cost_after": 59.8636
+          },
+          {
+            "date": "2024-02-15",
+            "action": "SELL_ALL",
+            "price": 66.6,
+            "invested_amount": -22250.57,
+            "capital_after": 42250.57,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2024-02-21",
+            "action": "BUY_TRANCHE_1",
+            "price": 66.65,
+            "invested_amount": 21125.29,
+            "capital_after": 21125.29,
+            "shares_after": 316.9585,
+            "avg_cost_after": 66.65
+          },
+          {
+            "date": "2024-03-05",
+            "action": "SELL_ALL",
+            "price": 71.85,
+            "invested_amount": -22773.47,
+            "capital_after": 63898.76,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2024-03-15",
+            "action": "BUY_TRANCHE_1",
+            "price": 74.5,
+            "invested_amount": 31949.38,
+            "capital_after": 31949.38,
+            "shares_after": 428.8507,
+            "avg_cost_after": 74.5
+          },
+          {
+            "date": "2024-04-09",
+            "action": "SELL_ALL",
+            "price": 82.85,
+            "invested_amount": -35530.28,
+            "capital_after": 87479.66,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2024-04-15",
+            "action": "BUY_TRANCHE_1",
+            "price": 80.05,
+            "invested_amount": 43739.83,
+            "capital_after": 43739.83,
+            "shares_after": 546.4064,
+            "avg_cost_after": 80.05
+          },
+          {
+            "date": "2024-04-16",
+            "action": "BUY_TRANCHE_2",
+            "price": 75.55,
+            "invested_amount": 43739.83,
+            "capital_after": 0.0,
+            "shares_after": 1125.3584,
+            "avg_cost_after": 77.7349
+          },
+          {
+            "date": "2024-05-15",
+            "action": "SELL_ALL",
+            "price": 84.75,
+            "invested_amount": -95374.13,
+            "capital_after": 115374.13,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2024-05-21",
+            "action": "BUY_TRANCHE_1",
+            "price": 85.35,
+            "invested_amount": 57687.06,
+            "capital_after": 57687.06,
+            "shares_after": 675.8883,
+            "avg_cost_after": 85.35
+          },
+          {
+            "date": "2024-06-13",
+            "action": "SELL_ALL",
+            "price": 93.7,
+            "invested_amount": -63330.73,
+            "capital_after": 141017.79,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2024-06-24",
+            "action": "BUY_TRANCHE_1",
+            "price": 98.25,
+            "invested_amount": 70508.9,
+            "capital_after": 70508.9,
+            "shares_after": 717.6478,
+            "avg_cost_after": 98.25
+          },
+          {
+            "date": "2024-07-04",
+            "action": "SELL_ALL",
+            "price": 105.9,
+            "invested_amount": -75998.9,
+            "capital_after": 166507.8,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2024-07-12",
+            "action": "BUY_TRANCHE_1",
+            "price": 107.65,
+            "invested_amount": 83253.9,
+            "capital_after": 83253.9,
+            "shares_after": 773.3758,
+            "avg_cost_after": 107.65
+          },
+          {
+            "date": "2024-07-18",
+            "action": "BUY_TRANCHE_2",
+            "price": 103.65,
+            "invested_amount": 83253.9,
+            "capital_after": 0.0,
+            "shares_after": 1576.5972,
+            "avg_cost_after": 105.6121
+          },
+          {
+            "date": "2024-07-26",
+            "action": "ALERT_MA60",
+            "price": 92.55,
+            "invested_amount": 0.0,
+            "capital_after": 0.0,
+            "shares_after": 1576.5972,
+            "avg_cost_after": 105.6121
+          }
+        ],
+        "rounds": [
+          {
+            "entry_date": "2024-01-02",
+            "exit_date": "2024-02-15",
+            "days_held": 44,
+            "entry_avg_price": 59.8636,
+            "exit_price": 66.6,
+            "total_invested": 20000.0,
+            "total_proceeds": 22250.57,
+            "pnl": 2250.57,
+            "pnl_pct": 11.25,
+            "position_taken": "FULL"
+          },
+          {
+            "entry_date": "2024-02-21",
+            "exit_date": "2024-03-05",
+            "days_held": 13,
+            "entry_avg_price": 66.65,
+            "exit_price": 71.85,
+            "total_invested": 21125.29,
+            "total_proceeds": 22773.47,
+            "pnl": 1648.18,
+            "pnl_pct": 7.8,
+            "position_taken": "HALF"
+          },
+          {
+            "entry_date": "2024-03-15",
+            "exit_date": "2024-04-09",
+            "days_held": 25,
+            "entry_avg_price": 74.5,
+            "exit_price": 82.85,
+            "total_invested": 31949.38,
+            "total_proceeds": 35530.28,
+            "pnl": 3580.9,
+            "pnl_pct": 11.21,
+            "position_taken": "HALF"
+          },
+          {
+            "entry_date": "2024-04-15",
+            "exit_date": "2024-05-15",
+            "days_held": 30,
+            "entry_avg_price": 77.7349,
+            "exit_price": 84.75,
+            "total_invested": 87479.66,
+            "total_proceeds": 95374.13,
+            "pnl": 7894.47,
+            "pnl_pct": 9.02,
+            "position_taken": "FULL"
+          },
+          {
+            "entry_date": "2024-05-21",
+            "exit_date": "2024-06-13",
+            "days_held": 23,
+            "entry_avg_price": 85.35,
+            "exit_price": 93.7,
+            "total_invested": 57687.06,
+            "total_proceeds": 63330.73,
+            "pnl": 5643.67,
+            "pnl_pct": 9.78,
+            "position_taken": "HALF"
+          },
+          {
+            "entry_date": "2024-06-24",
+            "exit_date": "2024-07-04",
+            "days_held": 10,
+            "entry_avg_price": 98.25,
+            "exit_price": 105.9,
+            "total_invested": 70508.9,
+            "total_proceeds": 75998.9,
+            "pnl": 5490.01,
+            "pnl_pct": 7.79,
+            "position_taken": "HALF"
+          }
+        ]
+      },
+      "strategy_b": {
+        "months_deposited": 12,
+        "total_deposits": 240000.0,
+        "end_close": 95.8,
+        "end_capital_pool": 240794.07,
+        "end_shares": 0.0,
+        "end_avg_cost": 0.0,
+        "end_market_value": 0.0,
+        "end_total_assets": 240794.07,
+        "year_gain": 794.07,
+        "return_pct": 0.33,
+        "realized_pnl": 794.07,
+        "unrealized_pnl": 0.0,
+        "num_trades": 2,
+        "num_completed_rounds": 1,
+        "trades": [
+          {
+            "date": "2024-01-17",
+            "action": "BUY_TRANCHE_1",
+            "price": 57.3,
+            "invested_amount": 10000.0,
+            "capital_after": 10000.0,
+            "shares_after": 174.5201,
+            "avg_cost_after": 57.3
+          },
+          {
+            "date": "2024-01-25",
+            "action": "SELL_ALL",
+            "price": 61.85,
+            "invested_amount": -10794.07,
+            "capital_after": 20794.07,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          }
+        ],
+        "rounds": [
+          {
+            "entry_date": "2024-01-17",
+            "exit_date": "2024-01-25",
+            "days_held": 8,
+            "entry_avg_price": 57.3,
+            "exit_price": 61.85,
+            "total_invested": 10000.0,
+            "total_proceeds": 10794.07,
+            "pnl": 794.07,
+            "pnl_pct": 7.94,
+            "position_taken": "HALF"
+          }
+        ]
+      }
+    },
+    {
+      "year": 2025,
+      "start_date": "2025-01-02",
+      "end_date": "2025-12-31",
+      "baseline_adjusted": 93.7,
+      "trigger_first_pct": 5.0,
+      "trigger_second_pct": 10.0,
+      "strategy_a": {
+        "months_deposited": 12,
+        "total_deposits": 240000.0,
+        "end_close": 144.1,
+        "end_capital_pool": 20000.0,
+        "end_shares": 1914.2189,
+        "end_avg_cost": 135.0674,
+        "end_market_value": 275838.94,
+        "end_total_assets": 295838.94,
+        "year_gain": 55838.94,
+        "return_pct": 23.27,
+        "realized_pnl": 38548.49,
+        "unrealized_pnl": 17290.45,
+        "num_trades": 18,
+        "num_completed_rounds": 5,
+        "trades": [
+          {
+            "date": "2025-01-02",
+            "action": "BUY_TRANCHE_1",
+            "price": 93.7,
+            "invested_amount": 10000.0,
+            "capital_after": 10000.0,
+            "shares_after": 106.7236,
+            "avg_cost_after": 93.7
+          },
+          {
+            "date": "2025-01-02",
+            "action": "BUY_TRANCHE_2",
+            "price": 93.7,
+            "invested_amount": 10000.0,
+            "capital_after": 0.0,
+            "shares_after": 213.4472,
+            "avg_cost_after": 93.7
+          },
+          {
+            "date": "2025-01-02",
+            "action": "ALERT_MA60",
+            "price": 93.7,
+            "invested_amount": 0.0,
+            "capital_after": 0.0,
+            "shares_after": 213.4472,
+            "avg_cost_after": 93.7
+          },
+          {
+            "date": "2025-01-07",
+            "action": "SELL_ALL",
+            "price": 101.25,
+            "invested_amount": -21611.53,
+            "capital_after": 21611.53,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2025-01-09",
+            "action": "BUY_TRANCHE_1",
+            "price": 96.05,
+            "invested_amount": 10805.76,
+            "capital_after": 10805.76,
+            "shares_after": 112.5014,
+            "avg_cost_after": 96.05
+          },
+          {
+            "date": "2025-01-09",
+            "action": "BUY_TRANCHE_2",
+            "price": 96.05,
+            "invested_amount": 10805.76,
+            "capital_after": 0.0,
+            "shares_after": 225.0029,
+            "avg_cost_after": 96.05
+          },
+          {
+            "date": "2025-01-09",
+            "action": "ALERT_MA60",
+            "price": 96.05,
+            "invested_amount": 0.0,
+            "capital_after": 0.0,
+            "shares_after": 225.0029,
+            "avg_cost_after": 96.05
+          },
+          {
+            "date": "2025-08-13",
+            "action": "SELL_ALL",
+            "price": 103.5,
+            "invested_amount": -23287.8,
+            "capital_after": 163287.8,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2025-08-19",
+            "action": "BUY_TRANCHE_1",
+            "price": 103.6,
+            "invested_amount": 81643.9,
+            "capital_after": 81643.9,
+            "shares_after": 788.0685,
+            "avg_cost_after": 103.6
+          },
+          {
+            "date": "2025-08-20",
+            "action": "BUY_TRANCHE_2",
+            "price": 98.25,
+            "invested_amount": 81643.9,
+            "capital_after": 0.0,
+            "shares_after": 1619.0497,
+            "avg_cost_after": 100.8541
+          },
+          {
+            "date": "2025-09-10",
+            "action": "SELL_ALL",
+            "price": 111.3,
+            "invested_amount": -180200.23,
+            "capital_after": 200200.23,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2025-09-26",
+            "action": "BUY_TRANCHE_1",
+            "price": 115.2,
+            "invested_amount": 100100.11,
+            "capital_after": 100100.11,
+            "shares_after": 868.9246,
+            "avg_cost_after": 115.2
+          },
+          {
+            "date": "2025-10-03",
+            "action": "SELL_ALL",
+            "price": 124.7,
+            "invested_amount": -108354.9,
+            "capital_after": 228455.01,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2025-10-13",
+            "action": "BUY_TRANCHE_1",
+            "price": 126.75,
+            "invested_amount": 114227.51,
+            "capital_after": 114227.51,
+            "shares_after": 901.2032,
+            "avg_cost_after": 126.75
+          },
+          {
+            "date": "2025-10-27",
+            "action": "SELL_ALL",
+            "price": 137.95,
+            "invested_amount": -124320.98,
+            "capital_after": 238548.49,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2025-11-04",
+            "action": "BUY_TRANCHE_1",
+            "price": 137.2,
+            "invested_amount": 129274.24,
+            "capital_after": 129274.24,
+            "shares_after": 942.2321,
+            "avg_cost_after": 137.2
+          },
+          {
+            "date": "2025-11-07",
+            "action": "BUY_TRANCHE_2",
+            "price": 133.0,
+            "invested_amount": 129274.24,
+            "capital_after": 0.0,
+            "shares_after": 1914.2189,
+            "avg_cost_after": 135.0674
+          },
+          {
+            "date": "2025-11-21",
+            "action": "ALERT_MA60",
+            "price": 121.95,
+            "invested_amount": 0.0,
+            "capital_after": 0.0,
+            "shares_after": 1914.2189,
+            "avg_cost_after": 135.0674
+          }
+        ],
+        "rounds": [
+          {
+            "entry_date": "2025-01-02",
+            "exit_date": "2025-01-07",
+            "days_held": 5,
+            "entry_avg_price": 93.7,
+            "exit_price": 101.25,
+            "total_invested": 20000.0,
+            "total_proceeds": 21611.53,
+            "pnl": 1611.53,
+            "pnl_pct": 8.06,
+            "position_taken": "FULL"
+          },
+          {
+            "entry_date": "2025-01-09",
+            "exit_date": "2025-08-13",
+            "days_held": 216,
+            "entry_avg_price": 96.05,
+            "exit_price": 103.5,
+            "total_invested": 21611.53,
+            "total_proceeds": 23287.8,
+            "pnl": 1676.27,
+            "pnl_pct": 7.76,
+            "position_taken": "FULL"
+          },
+          {
+            "entry_date": "2025-08-19",
+            "exit_date": "2025-09-10",
+            "days_held": 22,
+            "entry_avg_price": 100.8541,
+            "exit_price": 111.3,
+            "total_invested": 163287.8,
+            "total_proceeds": 180200.23,
+            "pnl": 16912.43,
+            "pnl_pct": 10.36,
+            "position_taken": "FULL"
+          },
+          {
+            "entry_date": "2025-09-26",
+            "exit_date": "2025-10-03",
+            "days_held": 7,
+            "entry_avg_price": 115.2,
+            "exit_price": 124.7,
+            "total_invested": 100100.11,
+            "total_proceeds": 108354.9,
+            "pnl": 8254.78,
+            "pnl_pct": 8.25,
+            "position_taken": "HALF"
+          },
+          {
+            "entry_date": "2025-10-13",
+            "exit_date": "2025-10-27",
+            "days_held": 14,
+            "entry_avg_price": 126.75,
+            "exit_price": 137.95,
+            "total_invested": 114227.51,
+            "total_proceeds": 124320.98,
+            "pnl": 10093.48,
+            "pnl_pct": 8.84,
+            "position_taken": "HALF"
+          }
+        ]
+      },
+      "strategy_b": {
+        "months_deposited": 12,
+        "total_deposits": 240000.0,
+        "end_close": 144.1,
+        "end_capital_pool": 245520.3,
+        "end_shares": 0.0,
+        "end_avg_cost": 0.0,
+        "end_market_value": 0.0,
+        "end_total_assets": 245520.3,
+        "year_gain": 5520.3,
+        "return_pct": 2.3,
+        "realized_pnl": 5520.3,
+        "unrealized_pnl": 0.0,
+        "num_trades": 3,
+        "num_completed_rounds": 1,
+        "trades": [
+          {
+            "date": "2025-03-11",
+            "action": "BUY_TRANCHE_1",
+            "price": 86.1,
+            "invested_amount": 30000.0,
+            "capital_after": 30000.0,
+            "shares_after": 348.4321,
+            "avg_cost_after": 86.1
+          },
+          {
+            "date": "2025-03-28",
+            "action": "BUY_TRANCHE_2",
+            "price": 82.3,
+            "invested_amount": 30000.0,
+            "capital_after": 0.0,
+            "shares_after": 712.9521,
+            "avg_cost_after": 84.1571
+          },
+          {
+            "date": "2025-07-16",
+            "action": "SELL_ALL",
+            "price": 91.9,
+            "invested_amount": -65520.3,
+            "capital_after": 145520.3,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          }
+        ],
+        "rounds": [
+          {
+            "entry_date": "2025-03-11",
+            "exit_date": "2025-07-16",
+            "days_held": 127,
+            "entry_avg_price": 84.1571,
+            "exit_price": 91.9,
+            "total_invested": 60000.0,
+            "total_proceeds": 65520.3,
+            "pnl": 5520.3,
+            "pnl_pct": 9.2,
+            "position_taken": "FULL"
+          }
+        ]
+      }
+    },
+    {
+      "year": 2026,
+      "start_date": "2026-01-02",
+      "end_date": "2026-07-14",
+      "baseline_adjusted": 149.0,
+      "trigger_first_pct": 5.0,
+      "trigger_second_pct": 10.0,
+      "strategy_a": {
+        "months_deposited": 7,
+        "total_deposits": 140000.0,
+        "end_close": 311.15,
+        "end_capital_pool": 0.0,
+        "end_shares": 592.0832,
+        "end_avg_cost": 331.476,
+        "end_market_value": 184226.7,
+        "end_total_assets": 184226.7,
+        "year_gain": 44226.7,
+        "return_pct": 31.59,
+        "realized_pnl": 56261.36,
+        "unrealized_pnl": -12034.66,
+        "num_trades": 24,
+        "num_completed_rounds": 8,
+        "trades": [
+          {
+            "date": "2026-01-09",
+            "action": "BUY_TRANCHE_1",
+            "price": 158.6,
+            "invested_amount": 10000.0,
+            "capital_after": 10000.0,
+            "shares_after": 63.0517,
+            "avg_cost_after": 158.6
+          },
+          {
+            "date": "2026-01-19",
+            "action": "SELL_ALL",
+            "price": 171.85,
+            "invested_amount": -10835.44,
+            "capital_after": 20835.44,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2026-01-21",
+            "action": "BUY_TRANCHE_1",
+            "price": 168.2,
+            "invested_amount": 10417.72,
+            "capital_after": 10417.72,
+            "shares_after": 61.9365,
+            "avg_cost_after": 168.2
+          },
+          {
+            "date": "2026-01-28",
+            "action": "SELL_ALL",
+            "price": 183.9,
+            "invested_amount": -11390.12,
+            "capital_after": 21807.84,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2026-01-30",
+            "action": "BUY_TRANCHE_1",
+            "price": 176.55,
+            "invested_amount": 10903.92,
+            "capital_after": 10903.92,
+            "shares_after": 61.7611,
+            "avg_cost_after": 176.55
+          },
+          {
+            "date": "2026-02-06",
+            "action": "BUY_TRANCHE_2",
+            "price": 170.3,
+            "invested_amount": 30903.92,
+            "capital_after": 0.0,
+            "shares_after": 243.2286,
+            "avg_cost_after": 171.887
+          },
+          {
+            "date": "2026-02-10",
+            "action": "SELL_ALL",
+            "price": 186.1,
+            "invested_amount": -45264.84,
+            "capital_after": 45264.84,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2026-03-03",
+            "action": "BUY_TRANCHE_1",
+            "price": 198.85,
+            "invested_amount": 32632.42,
+            "capital_after": 32632.42,
+            "shares_after": 164.1057,
+            "avg_cost_after": 198.85
+          },
+          {
+            "date": "2026-03-04",
+            "action": "BUY_TRANCHE_2",
+            "price": 180.85,
+            "invested_amount": 32632.42,
+            "capital_after": 0.0,
+            "shares_after": 344.5449,
+            "avg_cost_after": 189.4233
+          },
+          {
+            "date": "2026-03-30",
+            "action": "ALERT_MA60",
+            "price": 174.45,
+            "invested_amount": 0.0,
+            "capital_after": 0.0,
+            "shares_after": 344.5449,
+            "avg_cost_after": 189.4233
+          },
+          {
+            "date": "2026-04-10",
+            "action": "SELL_ALL",
+            "price": 205.9,
+            "invested_amount": -70941.79,
+            "capital_after": 90941.79,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2026-04-30",
+            "action": "BUY_TRANCHE_1",
+            "price": 248.2,
+            "invested_amount": 45470.89,
+            "capital_after": 45470.89,
+            "shares_after": 183.2026,
+            "avg_cost_after": 248.2
+          },
+          {
+            "date": "2026-05-04",
+            "action": "SELL_ALL",
+            "price": 270.0,
+            "invested_amount": -49464.71,
+            "capital_after": 114935.61,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2026-05-12",
+            "action": "BUY_TRANCHE_1",
+            "price": 281.9,
+            "invested_amount": 57467.8,
+            "capital_after": 57467.8,
+            "shares_after": 203.8588,
+            "avg_cost_after": 281.9
+          },
+          {
+            "date": "2026-05-19",
+            "action": "BUY_TRANCHE_2",
+            "price": 259.7,
+            "invested_amount": 57467.8,
+            "capital_after": 0.0,
+            "shares_after": 425.1442,
+            "avg_cost_after": 270.345
+          },
+          {
+            "date": "2026-05-25",
+            "action": "SELL_ALL",
+            "price": 304.3,
+            "invested_amount": -129371.37,
+            "capital_after": 129371.37,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2026-06-05",
+            "action": "BUY_TRANCHE_1",
+            "price": 322.75,
+            "invested_amount": 74685.69,
+            "capital_after": 74685.69,
+            "shares_after": 231.4041,
+            "avg_cost_after": 322.75
+          },
+          {
+            "date": "2026-06-08",
+            "action": "BUY_TRANCHE_2",
+            "price": 295.45,
+            "invested_amount": 74685.69,
+            "capital_after": 0.0,
+            "shares_after": 484.1903,
+            "avg_cost_after": 308.4972
+          },
+          {
+            "date": "2026-06-18",
+            "action": "SELL_ALL",
+            "price": 338.45,
+            "invested_amount": -163874.22,
+            "capital_after": 163874.22,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2026-06-24",
+            "action": "BUY_TRANCHE_1",
+            "price": 335.05,
+            "invested_amount": 81937.11,
+            "capital_after": 81937.11,
+            "shares_after": 244.5519,
+            "avg_cost_after": 335.05
+          },
+          {
+            "date": "2026-06-26",
+            "action": "BUY_TRANCHE_2",
+            "price": 309.0,
+            "invested_amount": 81937.11,
+            "capital_after": 0.0,
+            "shares_after": 509.7205,
+            "avg_cost_after": 321.4982
+          },
+          {
+            "date": "2026-07-01",
+            "action": "SELL_ALL",
+            "price": 345.8,
+            "invested_amount": -176261.36,
+            "capital_after": 196261.36,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
+          },
+          {
+            "date": "2026-07-06",
+            "action": "BUY_TRANCHE_1",
+            "price": 339.8,
+            "invested_amount": 98130.68,
+            "capital_after": 98130.68,
+            "shares_after": 288.7895,
+            "avg_cost_after": 339.8
+          },
+          {
+            "date": "2026-07-07",
+            "action": "BUY_TRANCHE_2",
+            "price": 323.55,
+            "invested_amount": 98130.68,
+            "capital_after": 0.0,
+            "shares_after": 592.0832,
+            "avg_cost_after": 331.476
+          }
+        ],
+        "rounds": [
+          {
+            "entry_date": "2026-01-09",
+            "exit_date": "2026-01-19",
+            "days_held": 10,
+            "entry_avg_price": 158.6,
+            "exit_price": 171.85,
+            "total_invested": 10000.0,
+            "total_proceeds": 10835.44,
+            "pnl": 835.44,
+            "pnl_pct": 8.35,
+            "position_taken": "HALF"
+          },
+          {
+            "entry_date": "2026-01-21",
+            "exit_date": "2026-01-28",
+            "days_held": 7,
+            "entry_avg_price": 168.2,
+            "exit_price": 183.9,
+            "total_invested": 10417.72,
+            "total_proceeds": 11390.12,
+            "pnl": 972.4,
+            "pnl_pct": 9.33,
+            "position_taken": "HALF"
+          },
+          {
+            "entry_date": "2026-01-30",
+            "exit_date": "2026-02-10",
+            "days_held": 11,
+            "entry_avg_price": 171.887,
+            "exit_price": 186.1,
+            "total_invested": 41807.84,
+            "total_proceeds": 45264.84,
+            "pnl": 3457.01,
+            "pnl_pct": 8.27,
+            "position_taken": "FULL"
+          },
+          {
+            "entry_date": "2026-03-03",
+            "exit_date": "2026-04-10",
+            "days_held": 38,
+            "entry_avg_price": 189.4233,
+            "exit_price": 205.9,
+            "total_invested": 65264.84,
+            "total_proceeds": 70941.79,
+            "pnl": 5676.95,
+            "pnl_pct": 8.7,
+            "position_taken": "FULL"
+          },
+          {
+            "entry_date": "2026-04-30",
+            "exit_date": "2026-05-04",
+            "days_held": 4,
+            "entry_avg_price": 248.2,
+            "exit_price": 270.0,
+            "total_invested": 45470.89,
+            "total_proceeds": 49464.71,
+            "pnl": 3993.82,
+            "pnl_pct": 8.78,
+            "position_taken": "HALF"
+          },
+          {
+            "entry_date": "2026-05-12",
+            "exit_date": "2026-05-25",
+            "days_held": 13,
+            "entry_avg_price": 270.345,
+            "exit_price": 304.3,
+            "total_invested": 114935.61,
+            "total_proceeds": 129371.37,
+            "pnl": 14435.76,
+            "pnl_pct": 12.56,
+            "position_taken": "FULL"
+          },
+          {
+            "entry_date": "2026-06-05",
+            "exit_date": "2026-06-18",
+            "days_held": 13,
+            "entry_avg_price": 308.4972,
+            "exit_price": 338.45,
+            "total_invested": 149371.37,
+            "total_proceeds": 163874.22,
+            "pnl": 14502.85,
+            "pnl_pct": 9.71,
+            "position_taken": "FULL"
+          },
+          {
+            "entry_date": "2026-06-24",
+            "exit_date": "2026-07-01",
+            "days_held": 7,
+            "entry_avg_price": 321.4982,
+            "exit_price": 345.8,
+            "total_invested": 163874.22,
+            "total_proceeds": 176261.36,
+            "pnl": 12387.14,
+            "pnl_pct": 7.56,
+            "position_taken": "FULL"
+          }
+        ]
+      },
+      "strategy_b": {
+        "months_deposited": 7,
+        "total_deposits": 140000.0,
+        "end_close": 311.15,
+        "end_capital_pool": 140000.0,
+        "end_shares": 0.0,
+        "end_avg_cost": 0.0,
+        "end_market_value": 0.0,
+        "end_total_assets": 140000.0,
+        "year_gain": 0.0,
+        "return_pct": 0.0,
+        "realized_pnl": 0,
+        "unrealized_pnl": 0.0,
+        "num_trades": 0,
+        "num_completed_rounds": 0,
+        "trades": [],
+        "rounds": []
+      }
+    }
+  ],
+  "note": "兩策略內部皆用 adjusted (還原後) 價位計算。策略 B 的 baseline = 該年第一個交易日 adjusted close。",
+  "updated_at": "2026-07-14T18:19:18Z"
+}

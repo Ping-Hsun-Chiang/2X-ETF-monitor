@@ -14,6 +14,20 @@
       "listing_date": "2017-03-30",
       "split_date": "2026-07-07",
       "split_ratio": 24
+    },
+    {
+      "id": "00663L",
+      "name": "國泰臺灣加權正2",
+      "listing_date": "2016-07-14",
+      "split_date": "2025-06-11",
+      "split_ratio": 7.0
+    },
+    {
+      "id": "00675L",
+      "name": "富邦臺灣加權正2",
+      "listing_date": "2016-10-05",
+      "split_date": null,
+      "split_ratio": 1.0
     }
   ]
 }
