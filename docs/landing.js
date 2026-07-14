@@ -10,6 +10,11 @@ function fmtCurrency(n) {
   return `${abs}`;
 }
 
+function fmtNumber(n) {
+  if (typeof n !== 'number') return '-';
+  return Math.abs(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
+}
+
 function fmtPct(n) {
   if (typeof n !== 'number') return '-';
   const sign = n > 0 ? '+' : '';
@@ -116,10 +121,10 @@ function renderLiveSummary(results) {
         <td class="target-cell" data-label="標的物">${target.id}</td>
         <td data-label="策略">${STRATEGY_LABEL[strategy] || strategy}</td>
         <td data-label="目前部位"><span class="pos-badge ${badgeCls}">${POSITION_ZH[position] || position}</span></td>
-        <td data-label="累積投入">${fmtCurrency(totalDeposits)}</td>
-        <td data-label="目前市值">${fmtCurrency(marketValue)}</td>
-        <td data-label="目前總資產">${fmtCurrency(totalAssets)}</td>
-        <td data-label="損益" class="${pnlCls}"><strong>${fmtCurrency(pnl)}</strong>（${fmtPct(pnlPct)}）</td>
+        <td data-label="投入本金">${fmtNumber(totalDeposits)}</td>
+        <td data-label="倉位市值">${fmtNumber(marketValue)}</td>
+        <td data-label="目前總資產">${fmtNumber(totalAssets)}</td>
+        <td data-label="目前總損益" class="${pnlCls}"><strong>${fmtCurrency(pnl)}</strong> (${fmtPct(pnlPct)})</td>
       </tr>
     `;
   }).join('');
@@ -131,10 +136,10 @@ function renderLiveSummary(results) {
           <th>標的物</th>
           <th>策略</th>
           <th>目前部位</th>
-          <th>累積投入</th>
-          <th>目前市值</th>
+          <th>投入本金</th>
+          <th>倉位市值</th>
           <th>目前總資產</th>
-          <th>損益</th>
+          <th>目前總損益</th>
         </tr>
       </thead>
       <tbody>${rows}</tbody>
