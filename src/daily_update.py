@@ -8,11 +8,17 @@ data" behavior for a single target, extended across the whole target list.
 """
 from __future__ import annotations
 
+import shutil
+
 from .main_p3 import fetch_benchmark_standalone, run_pipeline
-from .targets import load_targets
+from .targets import PROJECT_ROOT, TARGETS_JSON, load_targets
+
+DOCS_TARGETS_JSON = PROJECT_ROOT / "docs" / "targets.json"
 
 
 def main() -> None:
+    shutil.copy(TARGETS_JSON, DOCS_TARGETS_JSON)
+
     raw_benchmark, div_events = fetch_benchmark_standalone()
 
     targets = load_targets()

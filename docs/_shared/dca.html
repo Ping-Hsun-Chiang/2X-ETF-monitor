@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title data-template="持續投入 · 大盤比較 · {id}">持續投入 · 大盤比較 · __TARGET_ID__</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.js" defer></script>
+</head>
+<body>
+  <script>window.TARGET_ID = "__TARGET_ID__";</script>
+  <button id="hamburger" class="hamburger" type="button" aria-label="選單" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav id="menu" class="menu" hidden aria-label="主選單">
+    <a href="../index.html" class="menu-item">⇦ 切換標的物</a>
+    <a href="./" class="menu-item">首頁 · 訊號監控</a>
+    <a href="./annual.html" class="menu-item">主策略年度回測投報率</a>
+    <a href="./comparison.html" class="menu-item">各策略回測對照</a>
+    <a href="./dca.html" class="menu-item">持續投入 · 大盤比較</a>
+  </nav>
+
+  <main class="container container-wide">
+    <header>
+      <h1>持續投入 · 大盤比較</h1>
+      <p class="subtitle" id="dca-subtitle">從 2021-01 起、每月月初可用 20,000 · 四種投入方式的長期報酬對照</p>
+    </header>
+
+    <section class="card">
+      <div class="label">四種投入方式簡述</div>
+      <div id="dca-cards" class="dca-cards"></div>
+    </section>
+
+    <section class="card">
+      <div class="label">年度報酬率總表</div>
+      <div id="dca-table" class="pivot-wrapper"></div>
+    </section>
+
+    <section class="card">
+      <div class="label">資本淨值走勢對照（2021 到現在）</div>
+      <div class="chart-container-large">
+        <canvas id="dca-chart"></canvas>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="label">四方案期末結算</div>
+      <div id="dca-summary-wrapper" class="pivot-wrapper"></div>
+      <p class="muted small" style="margin-top: 0.7rem;">
+        ✓ 0050 (方案 A) 已還原<strong>配息</strong>（除息日累積 pending_cash、下月月初一起投入）
+        與<strong>分割</strong>（2025-06-18 1:4 分割，shares 自動 × 4）。<br>
+        ✓ <span id="dca-split-note">__TARGET_ID__ 分割還原後價位；槓桿型 ETF 一般不配息。</span>
+      </p>
+    </section>
+
+    <section id="dca-events-card" class="card" hidden>
+      <div class="label">A 方案（0050）除息 / 分割紀錄</div>
+      <div id="dca-events-body"></div>
+    </section>
+
+    <footer>
+      <div id="updated-line" class="updated-line"></div>
+      <div class="disclaimer">本頁面僅為個人策略回測顯示用途，非投資建議。</div>
+    </footer>
+  </main>
+
+  <script src="../meta.js"></script>
+  <script src="../nav.js"></script>
+  <script src="../dca.js"></script>
+</body>
+</html>

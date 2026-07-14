@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title data-template="各策略回測對照 (I ~ V) · {id}">各策略回測對照 (I ~ V) · 00685L</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.js" defer></script>
+</head>
+<body>
+  <script>window.TARGET_ID = "00685L";</script>
+  <button id="hamburger" class="hamburger" type="button" aria-label="選單" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav id="menu" class="menu" hidden aria-label="主選單">
+    <a href="../index.html" class="menu-item">⇦ 切換標的物</a>
+    <a href="./" class="menu-item">首頁 · 訊號監控</a>
+    <a href="./annual.html" class="menu-item">主策略年度回測投報率</a>
+    <a href="./comparison.html" class="menu-item">各策略回測對照</a>
+    <a href="./dca.html" class="menu-item">持續投入 · 大盤比較</a>
+  </nav>
+
+  <main class="container">
+    <header>
+      <h1>各策略回測對照</h1>
+      <p class="subtitle">五個候選策略 (I / II / III / IV / V) 於 2021 ~ 2026 六年的回測結果</p>
+      <p class="subtitle">每月月初入金 20,000 · 兩批 = 資本池 × 0.5 + 剩餘</p>
+    </header>
+
+    <section class="section-header">
+      <h2>候選策略說明</h2>
+      <p class="subtitle">每個策略詳細觸發條件如下（進場、加碼、出場）</p>
+    </section>
+
+    <div id="strategy-cards" class="strategy-cards">
+      <p class="muted small" style="grid-column: 1 / -1;">載入策略資料中… 若一直停在此訊息請按 Ctrl+Shift+R 硬重整、或開瀏覽器 DevTools Console 看錯誤訊息。</p>
+    </div>
+
+    <div id="error-banner" class="card" hidden style="border-color: var(--signal-sell); color: var(--signal-sell);">
+      <div class="label" style="color: var(--signal-sell);">頁面渲染失敗</div>
+      <div id="error-body" style="font-family: monospace; font-size: 0.85rem; white-space: pre-wrap;"></div>
+    </div>
+
+    <section class="card">
+      <div class="label">年度報酬率一覽表 (%)</div>
+      <div id="pivot-wrapper" class="pivot-wrapper"></div>
+    </section>
+
+    <section class="card">
+      <div class="label">年度報酬率 · 五策略並排</div>
+      <div class="chart-container-large">
+        <canvas id="return-chart"></canvas>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="chart-header">
+        <button id="equity-prev" class="chart-nav" type="button" aria-label="上一年">‹</button>
+        <div id="equity-title" class="chart-title">-</div>
+        <button id="equity-next" class="chart-nav" type="button" aria-label="下一年">›</button>
+      </div>
+      <div id="equity-range" class="chart-range">-</div>
+      <div class="chart-container-large">
+        <canvas id="equity-chart"></canvas>
+      </div>
+    </section>
+
+    <section class="section-header">
+      <h2>進出場次數統計</h2>
+      <p class="subtitle">每年 · 每策略的購入次數（第一批 + 第二批合計） / 出售次數</p>
+    </section>
+
+    <section class="card">
+      <div class="label">購入 / 出售次數（每格：綠 = 購入、紅 = 出售）</div>
+      <div id="activity-wrapper" class="pivot-wrapper"></div>
+    </section>
+
+    <section class="section-header">
+      <h2>單一策略明細</h2>
+      <p class="subtitle">選擇年份與策略、檢視完整交易時間軸與完成輪次</p>
+    </section>
+
+    <section class="card">
+      <div class="detail-selector">
+        <label>年份
+          <select id="detail-year"></select>
+        </label>
+        <label>策略
+          <select id="detail-strategy"></select>
+        </label>
+      </div>
+      <div id="detail-summary" class="detail-summary"></div>
+    </section>
+
+    <section id="detail-trades-section" class="card" hidden>
+      <div class="label">交易時間軸</div>
+      <ol id="detail-trades-list" class="trade-list"></ol>
+    </section>
+
+    <section id="detail-rounds-section" class="card" hidden>
+      <div class="label">完成輪次</div>
+      <ol id="detail-rounds-list" class="round-list"></ol>
+    </section>
+
+    <footer>
+      <div id="updated-line" class="updated-line"></div>
+      <div class="disclaimer">本頁面僅為個人策略回測顯示用途，非投資建議。</div>
+    </footer>
+  </main>
+
+  <script src="../meta.js"></script>
+  <script src="../nav.js"></script>
+  <script src="../comparison.js"></script>
+</body>
+</html>
