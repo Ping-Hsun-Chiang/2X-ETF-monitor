@@ -3,7 +3,7 @@
   "strategy": "III",
   "monthly_deposit": 20000.0,
   "start_date": "2017-03-30",
-  "end_date": "2026-07-14",
+  "end_date": "2026-07-15",
   "segments": [
     {
       "key": "2017",
@@ -4176,20 +4176,20 @@
       "key": "2026_post_split",
       "label": "2026 分割後",
       "start_date": "2026-07-07",
-      "end_date": "2026-07-14",
+      "end_date": "2026-07-15",
       "monthly_deposit": 20000.0,
       "months_deposited": 1,
       "total_deposits": 20000.0,
-      "end_close": 11.72,
-      "end_capital_pool": 10000.0,
-      "end_shares": 853.2423,
-      "end_avg_cost": 11.72,
-      "end_market_value": 10000.0,
-      "end_total_assets": 20000.0,
-      "realized_pnl": 0,
+      "end_close": 12.15,
+      "end_capital_pool": 20366.89,
+      "end_shares": 0.0,
+      "end_avg_cost": 0.0,
+      "end_market_value": 0.0,
+      "end_total_assets": 20366.89,
+      "realized_pnl": 366.89,
       "unrealized_pnl": 0.0,
-      "year_gain": 0.0,
-      "return_pct": 0.0,
+      "year_gain": 366.89,
+      "return_pct": 1.83,
       "trades": [
         {
           "date": "2026-07-14",
@@ -4200,10 +4200,35 @@
           "capital_after": 10000.0,
           "shares_after": 853.2423,
           "avg_cost_after": 11.72
+        },
+        {
+          "date": "2026-07-15",
+          "action": "SELL_ALL",
+          "action_zh": "獲利出場",
+          "price": 12.15,
+          "invested_amount": -10366.89,
+          "capital_after": 20366.89,
+          "shares_after": 0.0,
+          "avg_cost_after": 0.0
         }
       ],
-      "rounds": []
+      "rounds": [
+        {
+          "entry_date": "2026-07-14",
+          "exit_date": "2026-07-15",
+          "days_held": 1,
+          "initial_capital": 20000.0,
+          "total_invested": 10000.0,
+          "total_proceeds": 10366.89,
+          "entry_avg_price": 11.72,
+          "exit_price": 12.15,
+          "pnl": 366.89,
+          "pnl_pct": 3.67,
+          "position_taken": "HALF",
+          "ma60_alerted": false
+        }
+      ]
     }
   ],
-  "updated_at": "2026-07-14T17:49:36Z"
+  "updated_at": "2026-07-15T07:45:14Z"
 }
