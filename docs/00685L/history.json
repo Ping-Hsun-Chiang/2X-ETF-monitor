@@ -17823,8 +17823,8 @@
       "key": "2026_post_split",
       "label": "2026 分割後",
       "start_date": "2026-07-07",
-      "end_date": "2026-07-15",
-      "count": 6,
+      "end_date": "2026-07-16",
+      "count": 7,
       "series": [
         {
           "date": "2026-07-07",
@@ -17873,6 +17873,14 @@
           "ma20": null,
           "ma60": null,
           "change_pct": 3.6689
+        },
+        {
+          "date": "2026-07-16",
+          "close": 12.17,
+          "ma5": 12.042,
+          "ma20": null,
+          "ma60": null,
+          "change_pct": 0.1646
         }
       ]
     }
