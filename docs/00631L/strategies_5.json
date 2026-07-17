@@ -120,11 +120,11 @@
       "V": 26.7
     },
     "2026": {
-      "I": 36.7,
-      "II": 15.99,
-      "III": 24.09,
-      "IV": 16.69,
-      "V": 25.28
+      "I": 18.25,
+      "II": 2.27,
+      "III": 9.27,
+      "IV": 2.87,
+      "V": 10.3
     }
   },
   "results": {
@@ -31301,6 +31301,13 @@
             "price": 37.19,
             "invested": 97656.85,
             "capital_after": 0.0
+          },
+          {
+            "date": "2026-07-17",
+            "action": "ALERT_MA60",
+            "price": 32.17,
+            "invested": 0.0,
+            "capital_after": 0.0
           }
         ],
         "rounds": [
@@ -31885,20 +31892,24 @@
           {
             "date": "2026-07-16",
             "total_assets": 191382.23
+          },
+          {
+            "date": "2026-07-17",
+            "total_assets": 165548.98
           }
         ],
         "total_deposits": 140000.0,
-        "end_close": 37.19,
+        "end_close": 32.17,
         "end_capital_pool": 0.0,
         "end_shares": 5146.067,
         "end_avg_cost": 37.954,
-        "end_market_value": 191382.23,
-        "end_total_assets": 191382.23,
-        "return_pct": 36.7,
+        "end_market_value": 165548.98,
+        "end_total_assets": 165548.98,
+        "return_pct": 18.25,
         "num_trades": 23,
         "num_buys": 15,
         "num_sells": 8,
-        "num_alerts": 1,
+        "num_alerts": 2,
         "num_completed_rounds": 8
       },
       "II": {
@@ -32672,16 +32683,20 @@
           {
             "date": "2026-07-16",
             "total_assets": 162392.59
+          },
+          {
+            "date": "2026-07-17",
+            "total_assets": 143172.08
           }
         ],
         "total_deposits": 140000.0,
-        "end_close": 37.19,
+        "end_close": 32.17,
         "end_capital_pool": 20000.0,
         "end_shares": 3828.787,
         "end_avg_cost": 39.1113,
-        "end_market_value": 142392.59,
-        "end_total_assets": 162392.59,
-        "return_pct": 15.99,
+        "end_market_value": 123172.08,
+        "end_total_assets": 143172.08,
+        "return_pct": 2.27,
         "num_trades": 25,
         "num_buys": 16,
         "num_sells": 9,
@@ -33459,16 +33474,20 @@
           {
             "date": "2026-07-16",
             "total_assets": 173726.21
+          },
+          {
+            "date": "2026-07-17",
+            "total_assets": 152975.86
           }
         ],
         "total_deposits": 140000.0,
-        "end_close": 37.19,
+        "end_close": 32.17,
         "end_capital_pool": 20000.0,
         "end_shares": 4133.5361,
         "end_avg_cost": 39.1113,
-        "end_market_value": 153726.21,
-        "end_total_assets": 173726.21,
-        "return_pct": 24.09,
+        "end_market_value": 132975.86,
+        "end_total_assets": 152975.86,
+        "return_pct": 9.27,
         "num_trades": 25,
         "num_buys": 16,
         "num_sells": 9,
@@ -34264,16 +34283,20 @@
           {
             "date": "2026-07-16",
             "total_assets": 163372.97
+          },
+          {
+            "date": "2026-07-17",
+            "total_assets": 144020.12
           }
         ],
         "total_deposits": 140000.0,
-        "end_close": 37.19,
+        "end_close": 32.17,
         "end_capital_pool": 20000.0,
         "end_shares": 3855.1484,
         "end_avg_cost": 39.1113,
-        "end_market_value": 143372.97,
-        "end_total_assets": 163372.97,
-        "return_pct": 16.69,
+        "end_market_value": 124020.12,
+        "end_total_assets": 144020.12,
+        "return_pct": 2.87,
         "num_trades": 26,
         "num_buys": 16,
         "num_sells": 10,
@@ -35069,16 +35092,20 @@
           {
             "date": "2026-07-16",
             "total_assets": 175395.12
+          },
+          {
+            "date": "2026-07-17",
+            "total_assets": 154419.49
           }
         ],
         "total_deposits": 140000.0,
-        "end_close": 37.19,
+        "end_close": 32.17,
         "end_capital_pool": 20000.0,
         "end_shares": 4178.4114,
         "end_avg_cost": 39.1113,
-        "end_market_value": 155395.12,
-        "end_total_assets": 175395.12,
-        "return_pct": 25.28,
+        "end_market_value": 134419.49,
+        "end_total_assets": 154419.49,
+        "return_pct": 10.3,
         "num_trades": 26,
         "num_buys": 16,
         "num_sells": 10,
@@ -35087,5 +35114,5 @@
       }
     }
   },
-  "updated_at": "2026-07-16T07:50:26Z"
+  "updated_at": "2026-07-17T07:48:05Z"
 }
