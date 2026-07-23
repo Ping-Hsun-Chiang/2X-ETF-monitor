@@ -1,10 +1,10 @@
 {
   "stock_id": "00685L",
-  "date": "2026-07-22",
-  "close": 11.38,
-  "ma5": 11.14,
-  "ma20": 12.1107,
-  "ma60": 11.2296,
+  "date": "2026-07-23",
+  "close": 11.47,
+  "ma5": 11.0,
+  "ma20": 12.0613,
+  "ma60": 11.2749,
   "position": "CASH",
   "position_zh": "空手",
   "signal": "NONE",
@@ -17,6 +17,6 @@
   "current_pnl": 0.0,
   "current_pnl_pct": 0.0,
   "ma60_alerted_this_round": false,
-  "updated_at": "2026-07-22T08:02:47Z",
+  "updated_at": "2026-07-23T08:05:14Z",
   "strategy": "III"
 }

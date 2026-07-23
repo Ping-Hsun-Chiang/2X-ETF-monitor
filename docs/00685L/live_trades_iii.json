@@ -1,7 +1,7 @@
 {
   "stock_id": "00685L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-07-22",
+  "as_of_date": "2026-07-23",
   "summary": {
     "num_completed_rounds": 2,
     "total_realized_pnl": 1642.24,
@@ -101,5 +101,5 @@
     }
   ],
   "current_round": null,
-  "updated_at": "2026-07-22T08:02:47Z"
+  "updated_at": "2026-07-23T08:05:14Z"
 }

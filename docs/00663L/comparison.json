@@ -625,23 +625,23 @@
     {
       "year": 2026,
       "start_date": "2026-01-02",
-      "end_date": "2026-07-22",
+      "end_date": "2026-07-23",
       "baseline_adjusted": 49.0,
       "trigger_first_pct": 5.0,
       "trigger_second_pct": 10.0,
       "strategy_a": {
         "months_deposited": 7,
         "total_deposits": 140000.0,
-        "end_close": 99.75,
+        "end_close": 100.55,
         "end_capital_pool": 0.0,
         "end_shares": 1797.8359,
         "end_avg_cost": 109.3571,
-        "end_market_value": 179334.13,
-        "end_total_assets": 179334.13,
-        "year_gain": 39334.13,
-        "return_pct": 28.1,
+        "end_market_value": 180772.4,
+        "end_total_assets": 180772.4,
+        "year_gain": 40772.4,
+        "return_pct": 29.12,
         "realized_pnl": 56606.2,
-        "unrealized_pnl": -17272.06,
+        "unrealized_pnl": -15833.79,
         "num_trades": 25,
         "num_completed_rounds": 8,
         "trades": [
@@ -973,7 +973,7 @@
       "strategy_b": {
         "months_deposited": 7,
         "total_deposits": 140000.0,
-        "end_close": 99.75,
+        "end_close": 100.55,
         "end_capital_pool": 140000.0,
         "end_shares": 0.0,
         "end_avg_cost": 0.0,
@@ -991,5 +991,5 @@
     }
   ],
   "note": "兩策略內部皆用 adjusted (還原後) 價位計算。策略 B 的 baseline = 該年第一個交易日 adjusted close。",
-  "updated_at": "2026-07-22T08:02:50Z"
+  "updated_at": "2026-07-23T08:05:20Z"
 }

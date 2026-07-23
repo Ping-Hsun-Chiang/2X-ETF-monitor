@@ -1,10 +1,10 @@
 {
   "stock_id": "00675L",
-  "date": "2026-07-22",
-  "close": 301.75,
-  "ma5": 295.03,
-  "ma20": 320.1225,
-  "ma60": 305.1233,
+  "date": "2026-07-23",
+  "close": 304.0,
+  "ma5": 291.22,
+  "ma20": 318.57,
+  "ma60": 305.9042,
   "position": "CASH",
   "position_zh": "空手",
   "signal": "NONE",
@@ -17,6 +17,6 @@
   "current_pnl": 0.0,
   "current_pnl_pct": 0.0,
   "ma60_alerted_this_round": false,
-  "updated_at": "2026-07-22T08:02:52Z",
+  "updated_at": "2026-07-23T08:05:22Z",
   "strategy": "III"
 }
