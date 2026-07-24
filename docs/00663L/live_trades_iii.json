@@ -1,13 +1,13 @@
 {
   "stock_id": "00663L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-07-23",
+  "as_of_date": "2026-07-24",
   "summary": {
     "num_completed_rounds": 2,
     "total_realized_pnl": 1618.45,
     "total_deposits": 20000.0,
-    "capital_pool": 21618.45,
-    "market_value": 0.0,
+    "capital_pool": 0.0,
+    "market_value": 21618.45,
     "total_assets": 21618.45,
     "current_open_pnl": 0.0
   },
@@ -66,6 +66,28 @@
       "invested_amount": -21618.45,
       "shares_after": 0.0,
       "avg_cost_after": 0.0
+    },
+    {
+      "date": "2026-07-24",
+      "action": "BUY_TRANCHE_1",
+      "action_zh": "第一批買進",
+      "price": 95.95,
+      "capital_before": 21618.45,
+      "capital_after": 10809.23,
+      "invested_amount": 10809.23,
+      "shares_after": 112.6548,
+      "avg_cost_after": 95.95
+    },
+    {
+      "date": "2026-07-24",
+      "action": "BUY_TRANCHE_2",
+      "action_zh": "第二批加碼",
+      "price": 95.95,
+      "capital_before": 10809.23,
+      "capital_after": 0.0,
+      "invested_amount": 10809.23,
+      "shares_after": 225.3096,
+      "avg_cost_after": 95.95
     }
   ],
   "rounds": [
@@ -100,6 +122,17 @@
       "ma60_alerted": false
     }
   ],
-  "current_round": null,
-  "updated_at": "2026-07-23T08:05:18Z"
+  "current_round": {
+    "entry_date": "2026-07-24",
+    "initial_capital": 21618.45,
+    "shares": 225.3096,
+    "avg_cost": 95.95,
+    "total_invested": 21618.45,
+    "market_value": 21618.45,
+    "current_pnl": 0.0,
+    "current_pnl_pct": 0.0,
+    "position_taken": "FULL",
+    "ma60_alerted": false
+  },
+  "updated_at": "2026-07-24T08:02:12Z"
 }
