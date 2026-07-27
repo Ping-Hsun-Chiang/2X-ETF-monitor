@@ -3,7 +3,7 @@
   "strategy": "III",
   "monthly_deposit": 20000.0,
   "start_date": "2016-10-05",
-  "end_date": "2026-07-24",
+  "end_date": "2026-07-27",
   "segments": [
     {
       "key": "2016",
@@ -3528,20 +3528,20 @@
       "key": "2026",
       "label": "2026",
       "start_date": "2026-01-02",
-      "end_date": "2026-07-24",
+      "end_date": "2026-07-27",
       "monthly_deposit": 20000.0,
       "months_deposited": 7,
       "total_deposits": 140000.0,
-      "end_close": 289.6,
+      "end_close": 290.05,
       "end_capital_pool": 20000.0,
       "end_shares": 466.2954,
       "end_avg_cost": 351.8,
-      "end_market_value": 135039.14,
-      "end_total_assets": 155039.14,
+      "end_market_value": 135248.98,
+      "end_total_assets": 155248.98,
       "realized_pnl": 44042.72,
-      "unrealized_pnl": -29003.57,
-      "year_gain": 15039.14,
-      "return_pct": 10.74,
+      "unrealized_pnl": -28793.74,
+      "year_gain": 15248.98,
+      "return_pct": 10.89,
       "trades": [
         {
           "date": "2026-01-21",
@@ -3958,5 +3958,5 @@
       ]
     }
   ],
-  "updated_at": "2026-07-24T08:02:17Z"
+  "updated_at": "2026-07-27T09:01:17Z"
 }

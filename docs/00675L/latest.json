@@ -1,10 +1,10 @@
 {
   "stock_id": "00675L",
-  "date": "2026-07-24",
-  "close": 289.6,
-  "ma5": 293.39,
-  "ma20": 316.19,
-  "ma60": 306.4908,
+  "date": "2026-07-27",
+  "close": 290.05,
+  "ma5": 296.39,
+  "ma20": 315.2425,
+  "ma60": 307.1492,
   "position": "FULL",
   "position_zh": "滿倉",
   "signal": "NONE",
@@ -13,9 +13,9 @@
   "shares": 62.5978,
   "avg_cost": 319.5,
   "capital_pool": 0.0,
-  "total_assets": 18128.33,
-  "current_pnl": -1871.67,
-  "current_pnl_pct": -9.36,
+  "total_assets": 18156.49,
+  "current_pnl": -1843.51,
+  "current_pnl_pct": -9.22,
   "ma60_alerted_this_round": true,
-  "updated_at": "2026-07-24T08:02:16Z"
+  "updated_at": "2026-07-27T09:01:16Z"
 }
