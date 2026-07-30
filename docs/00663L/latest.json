@@ -1,10 +1,10 @@
 {
   "stock_id": "00663L",
-  "date": "2026-07-29",
-  "close": 80.8,
-  "ma5": 92.03,
-  "ma20": 101.6825,
-  "ma60": 101.3992,
+  "date": "2026-07-30",
+  "close": 80.2,
+  "ma5": 87.96,
+  "ma20": 99.9875,
+  "ma60": 101.25,
   "position": "FULL",
   "position_zh": "滿倉",
   "signal": "NONE",
@@ -13,9 +13,9 @@
   "shares": 189.3043,
   "avg_cost": 105.65,
   "capital_pool": 0.0,
-  "total_assets": 15295.79,
-  "current_pnl": -4704.21,
-  "current_pnl_pct": -23.52,
+  "total_assets": 15182.21,
+  "current_pnl": -4817.79,
+  "current_pnl_pct": -24.09,
   "ma60_alerted_this_round": true,
-  "updated_at": "2026-07-29T08:13:04Z"
+  "updated_at": "2026-07-30T08:01:14Z"
 }
