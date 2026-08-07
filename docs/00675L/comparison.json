@@ -982,5 +982,5 @@
     }
   ],
   "note": "兩策略內部皆用 adjusted (還原後) 價位計算。策略 B 的 baseline = 該年第一個交易日 adjusted close。",
-  "updated_at": "2026-08-06T08:09:36Z"
+  "updated_at": "2026-08-07T06:56:06Z"
 }
