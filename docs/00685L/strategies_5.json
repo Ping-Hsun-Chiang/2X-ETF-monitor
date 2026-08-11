@@ -120,11 +120,11 @@
       "V": 23.43
     },
     "2026": {
-      "I": 21.21,
-      "II": 6.61,
-      "III": 13.17,
-      "IV": 8.38,
-      "V": 15.08
+      "I": 21.63,
+      "II": 6.97,
+      "III": 13.56,
+      "IV": 8.75,
+      "V": 15.48
     }
   },
   "results": {
@@ -31853,16 +31853,20 @@
           {
             "date": "2026-08-10",
             "total_assets": 193938.25
+          },
+          {
+            "date": "2026-08-11",
+            "total_assets": 194615.2
           }
         ],
         "total_deposits": 160000.0,
-        "end_close": 11.37,
+        "end_close": 11.42,
         "end_capital_pool": 40000.0,
         "end_shares": 13538.9844,
         "end_avg_cost": 12.1579,
-        "end_market_value": 153938.25,
-        "end_total_assets": 193938.25,
-        "return_pct": 21.21,
+        "end_market_value": 154615.2,
+        "end_total_assets": 194615.2,
+        "return_pct": 21.63,
         "num_trades": 20,
         "num_buys": 13,
         "num_sells": 7,
@@ -32733,16 +32737,20 @@
           {
             "date": "2026-08-10",
             "total_assets": 170575.29
+          },
+          {
+            "date": "2026-08-11",
+            "total_assets": 171149.5
           }
         ],
         "total_deposits": 160000.0,
-        "end_close": 11.37,
+        "end_close": 11.42,
         "end_capital_pool": 40000.0,
         "end_shares": 11484.1945,
         "end_avg_cost": 13.2729,
-        "end_market_value": 130575.29,
-        "end_total_assets": 170575.29,
-        "return_pct": 6.61,
+        "end_market_value": 131149.5,
+        "end_total_assets": 171149.5,
+        "return_pct": 6.97,
         "num_trades": 27,
         "num_buys": 17,
         "num_sells": 10,
@@ -33613,16 +33621,20 @@
           {
             "date": "2026-08-10",
             "total_assets": 181070.11
+          },
+          {
+            "date": "2026-08-11",
+            "total_assets": 181690.47
           }
         ],
         "total_deposits": 160000.0,
-        "end_close": 11.37,
+        "end_close": 11.42,
         "end_capital_pool": 40000.0,
         "end_shares": 12407.2219,
         "end_avg_cost": 13.2729,
-        "end_market_value": 141070.11,
-        "end_total_assets": 181070.11,
-        "return_pct": 13.17,
+        "end_market_value": 141690.47,
+        "end_total_assets": 181690.47,
+        "return_pct": 13.56,
         "num_trades": 27,
         "num_buys": 17,
         "num_sells": 10,
@@ -34486,16 +34498,20 @@
           {
             "date": "2026-08-10",
             "total_assets": 173413.06
+          },
+          {
+            "date": "2026-08-11",
+            "total_assets": 173999.75
           }
         ],
         "total_deposits": 160000.0,
-        "end_close": 11.37,
+        "end_close": 11.42,
         "end_capital_pool": 40000.0,
         "end_shares": 11733.7785,
         "end_avg_cost": 12.9671,
-        "end_market_value": 133413.06,
-        "end_total_assets": 173413.06,
-        "return_pct": 8.38,
+        "end_market_value": 133999.75,
+        "end_total_assets": 173999.75,
+        "return_pct": 8.75,
         "num_trades": 26,
         "num_buys": 16,
         "num_sells": 10,
@@ -35359,16 +35375,20 @@
           {
             "date": "2026-08-10",
             "total_assets": 184127.08
+          },
+          {
+            "date": "2026-08-11",
+            "total_assets": 184760.89
           }
         ],
         "total_deposits": 160000.0,
-        "end_close": 11.37,
+        "end_close": 11.42,
         "end_capital_pool": 40000.0,
         "end_shares": 12676.0846,
         "end_avg_cost": 12.9671,
-        "end_market_value": 144127.08,
-        "end_total_assets": 184127.08,
-        "return_pct": 15.08,
+        "end_market_value": 144760.89,
+        "end_total_assets": 184760.89,
+        "return_pct": 15.48,
         "num_trades": 26,
         "num_buys": 16,
         "num_sells": 10,
@@ -35377,5 +35397,5 @@
       }
     }
   },
-  "updated_at": "2026-08-10T07:02:07Z"
+  "updated_at": "2026-08-11T06:41:05Z"
 }
