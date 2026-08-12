@@ -1,10 +1,10 @@
 {
   "stock_id": "00631L",
-  "date": "2026-08-11",
-  "close": 34.87,
-  "ma5": 34.25,
-  "ma20": 33.347,
-  "ma60": 35.264,
+  "date": "2026-08-12",
+  "close": 35.45,
+  "ma5": 34.51,
+  "ma20": 33.2675,
+  "ma60": 35.3397,
   "position": "CASH",
   "position_zh": "空手",
   "signal": "NONE",
@@ -17,6 +17,6 @@
   "current_pnl": 0.0,
   "current_pnl_pct": 0.0,
   "ma60_alerted_this_round": false,
-  "updated_at": "2026-08-11T06:40:59Z",
+  "updated_at": "2026-08-12T07:01:35Z",
   "strategy": "III"
 }
