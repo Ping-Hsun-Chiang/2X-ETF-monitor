@@ -1,7 +1,7 @@
 {
   "stock_id": "00675L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-08-12",
+  "as_of_date": "2026-08-13",
   "summary": {
     "num_completed_rounds": 3,
     "total_realized_pnl": 2568.98,
@@ -149,5 +149,5 @@
     }
   ],
   "current_round": null,
-  "updated_at": "2026-08-12T07:01:44Z"
+  "updated_at": "2026-08-13T07:05:57Z"
 }
