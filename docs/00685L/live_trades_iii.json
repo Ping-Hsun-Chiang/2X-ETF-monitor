@@ -1,15 +1,15 @@
 {
   "stock_id": "00685L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-08-17",
+  "as_of_date": "2026-08-18",
   "summary": {
     "num_completed_rounds": 3,
     "total_realized_pnl": 2472.35,
     "total_deposits": 40000.0,
-    "capital_pool": 21236.18,
-    "market_value": 21380.64,
-    "total_assets": 42616.82,
-    "current_open_pnl": 144.46
+    "capital_pool": 0.0,
+    "market_value": 41894.5,
+    "total_assets": 41894.5,
+    "current_open_pnl": -577.86
   },
   "trades": [
     {
@@ -110,6 +110,17 @@
       "invested_amount": 21236.18,
       "shares_after": 1805.7974,
       "avg_cost_after": 11.76
+    },
+    {
+      "date": "2026-08-18",
+      "action": "BUY_TRANCHE_2",
+      "action_zh": "第二批加碼",
+      "price": 11.44,
+      "capital_before": 21236.18,
+      "capital_after": 0.0,
+      "invested_amount": 21236.18,
+      "shares_after": 3662.1065,
+      "avg_cost_after": 11.5978
     }
   ],
   "rounds": [
@@ -162,14 +173,14 @@
   "current_round": {
     "entry_date": "2026-08-14",
     "initial_capital": 42472.35,
-    "shares": 1805.7974,
-    "avg_cost": 11.76,
-    "total_invested": 21236.18,
-    "market_value": 21380.64,
-    "current_pnl": 144.46,
-    "current_pnl_pct": 0.68,
-    "position_taken": "HALF",
+    "shares": 3662.1065,
+    "avg_cost": 11.5978,
+    "total_invested": 42472.35,
+    "market_value": 41894.5,
+    "current_pnl": -577.86,
+    "current_pnl_pct": -1.36,
+    "position_taken": "FULL",
     "ma60_alerted": false
   },
-  "updated_at": "2026-08-17T06:25:50Z"
+  "updated_at": "2026-08-18T06:19:36Z"
 }
