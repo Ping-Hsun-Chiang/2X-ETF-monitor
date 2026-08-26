@@ -1,15 +1,15 @@
 {
   "stock_id": "00675L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-08-25",
+  "as_of_date": "2026-08-26",
   "summary": {
     "num_completed_rounds": 3,
     "total_realized_pnl": 2568.98,
     "total_deposits": 40000.0,
     "capital_pool": 0.0,
-    "market_value": 41601.43,
-    "total_assets": 41601.43,
-    "current_open_pnl": -967.56
+    "market_value": 43158.37,
+    "total_assets": 43158.37,
+    "current_open_pnl": 589.38
   },
   "trades": [
     {
@@ -176,11 +176,11 @@
     "shares": 138.3946,
     "avg_cost": 307.5913,
     "total_invested": 42568.98,
-    "market_value": 41601.43,
-    "current_pnl": -967.56,
-    "current_pnl_pct": -2.27,
+    "market_value": 43158.37,
+    "current_pnl": 589.38,
+    "current_pnl_pct": 1.38,
     "position_taken": "FULL",
     "ma60_alerted": false
   },
-  "updated_at": "2026-08-25T06:21:58Z"
+  "updated_at": "2026-08-26T06:23:48Z"
 }
