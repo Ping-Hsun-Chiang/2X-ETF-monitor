@@ -1,13 +1,13 @@
 {
   "stock_id": "00685L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-08-28",
+  "as_of_date": "2026-08-31",
   "summary": {
     "num_completed_rounds": 4,
     "total_realized_pnl": 3798.79,
     "total_deposits": 40000.0,
-    "capital_pool": 43798.79,
-    "market_value": 0.0,
+    "capital_pool": 21899.4,
+    "market_value": 21899.4,
     "total_assets": 43798.79,
     "current_open_pnl": 0.0
   },
@@ -132,6 +132,17 @@
       "invested_amount": -43798.79,
       "shares_after": 0.0,
       "avg_cost_after": 0.0
+    },
+    {
+      "date": "2026-08-31",
+      "action": "BUY_TRANCHE_1",
+      "action_zh": "第一批買進",
+      "price": 11.82,
+      "capital_before": 43798.79,
+      "capital_after": 21899.4,
+      "invested_amount": 21899.4,
+      "shares_after": 1852.7409,
+      "avg_cost_after": 11.82
     }
   ],
   "rounds": [
@@ -196,6 +207,17 @@
       "ma60_alerted": false
     }
   ],
-  "current_round": null,
-  "updated_at": "2026-08-28T17:45:04Z"
+  "current_round": {
+    "entry_date": "2026-08-31",
+    "initial_capital": 43798.79,
+    "shares": 1852.7409,
+    "avg_cost": 11.82,
+    "total_invested": 21899.4,
+    "market_value": 21899.4,
+    "current_pnl": 0.0,
+    "current_pnl_pct": 0.0,
+    "position_taken": "HALF",
+    "ma60_alerted": false
+  },
+  "updated_at": "2026-08-31T11:55:14Z"
 }
