@@ -22,8 +22,15 @@ from .backtest import BacktestResult, run_backtest
 from .fetch_data import fetch_daily_close
 from .split_adjust import adjust_for_split
 from .state import LatestState, build_latest_state
-from .strategy import Action, LIVE_START_DATE, MONTHLY_DEPOSIT, Position, add_moving_averages
-from .strategy_iii import run_backtest_iii
+from .strategy import (
+    Action,
+    LIVE_START_DATE,
+    MONTHLY_DEPOSIT,
+    Position,
+    add_moving_averages,
+    describe_next_actions,
+)
+from .strategy_iii import describe_next_actions_iii, run_backtest_iii
 from .targets import BENCHMARK_RAW_CSV, Target, get_target
 
 POSITION_ZH = {
@@ -70,7 +77,12 @@ def load_previous_json_date(latest_json: Path) -> Optional[str]:
         return None
 
 
-def build_status_payload(state: LatestState, stock_id: str, signal_zh_map: Optional[dict] = None) -> dict:
+def build_status_payload(
+    state: LatestState,
+    stock_id: str,
+    signal_zh_map: Optional[dict] = None,
+    next_actions: Optional[list[dict]] = None,
+) -> dict:
     if signal_zh_map is None:
         signal_zh_map = SIGNAL_ZH
     signal_key = state.today_signal.value if state.today_signal else "NONE"
@@ -94,6 +106,7 @@ def build_status_payload(state: LatestState, stock_id: str, signal_zh_map: Optio
         "current_pnl": round(state.current_pnl, 2),
         "current_pnl_pct": round(state.current_pnl_pct * 100, 2),
         "ma60_alerted_this_round": state.ma60_alerted_this_round,
+        "next_actions": next_actions or [],
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
 
@@ -310,13 +323,20 @@ def run_pipeline(target: Target, raw_benchmark: pd.DataFrame, div_events_benchma
     # 策略 I（現有）
     result = run_backtest(adjusted, start_date=LIVE_START_DATE)
     state = build_latest_state(result)
-    payload = build_status_payload(state, target.id)
+    next_actions = describe_next_actions(
+        state.position, state.close, state.ma5, state.ma20, state.ma60,
+        state.avg_cost, state.capital_pool, state.ma60_alerted_this_round,
+    )
+    payload = build_status_payload(state, target.id, next_actions=next_actions)
     write_json(payload, latest_json)
 
     # 策略 III：今日訊號 / 部位
     result_iii = run_backtest_iii(adjusted, start_date=LIVE_START_DATE)
     state_iii = build_latest_state(result_iii)
-    payload_iii = build_status_payload(state_iii, target.id, signal_zh_map=SIGNAL_ZH_III)
+    next_actions_iii = describe_next_actions_iii(
+        state_iii.position, state_iii.close, state_iii.avg_cost, state_iii.capital_pool,
+    )
+    payload_iii = build_status_payload(state_iii, target.id, signal_zh_map=SIGNAL_ZH_III, next_actions=next_actions_iii)
     payload_iii["strategy"] = "III"
     write_json(payload_iii, docs_dir / "latest_iii.json")
 

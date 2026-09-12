@@ -403,6 +403,52 @@ h1 {
 .pnl-inline.pos { color: var(--signal-buy); }
 .pnl-inline.neg { color: var(--signal-sell); }
 
+.next-actions-body {
+  text-align: left;
+}
+.next-actions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+.next-action-item {
+  padding: 0.45rem 0.65rem;
+  border-left: 3px solid var(--border);
+  background: var(--bg);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  display: grid;
+  gap: 0.2rem;
+}
+.next-action-item.buy { border-left-color: var(--signal-buy); }
+.next-action-item.sell { border-left-color: var(--signal-sell); }
+.next-action-item.alert { border-left-color: var(--signal-alert); }
+.next-action-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1rem 0.5rem;
+  align-items: baseline;
+}
+.next-action-badge {
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.next-action-condition {
+  color: var(--text-muted);
+}
+.next-action-price {
+  font-variant-numeric: tabular-nums;
+}
+.next-action-price strong {
+  font-size: 1.02em;
+}
+.next-action-note {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+
 /* 空狀態占位（讓策略 I / III 兩欄視覺對齊） */
 .empty-placeholder {
   text-align: center;

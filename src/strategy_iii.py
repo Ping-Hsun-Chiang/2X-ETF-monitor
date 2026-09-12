@@ -16,7 +16,14 @@ from typing import Optional
 import pandas as pd
 
 from .backtest import BacktestResult, Deposit, Round, Trade, compute_stats
-from .strategy import Action, MONTHLY_DEPOSIT, Position, add_moving_averages, apply_action
+from .strategy import (
+    Action,
+    MONTHLY_DEPOSIT,
+    Position,
+    add_moving_averages,
+    apply_action,
+    price_reachable_next_session,
+)
 
 DROP_FIRST = 1.0     # 第一批進場門檻（%）
 DROP_SECOND = 3.0    # 第二批加碼門檻（%）
@@ -42,6 +49,61 @@ def next_action_iii(
     if position is Position.CASH and drop_pct_today > drop1 and capital_pool > 0:
         return Action.BUY_TRANCHE_1
     return None
+
+
+def describe_next_actions_iii(
+    position: Position,
+    close: float,
+    avg_cost: float,
+    capital_pool: float,
+    drop1: float = DROP_FIRST,
+    drop2: float = DROP_SECOND,
+    exit_pct: float = PROFIT_EXIT,
+) -> list[dict]:
+    """Describe the trigger(s) the user is currently watching for, restricted to
+    ones the next trading day's close could plausibly reach (within the daily
+    price-limit band around today's close). The drop triggers are
+    day-over-day, so the trigger price is projected from today's close acting
+    as tomorrow's "prev_close" -- the actual threshold shifts daily as the
+    close moves."""
+    hints: list[dict] = []
+
+    if position in (Position.HALF, Position.FULL) and avg_cost > 0:
+        target_price = avg_cost * (1 + exit_pct / 100)
+        if price_reachable_next_session(close, target_price):
+            hints.append({
+                "action": Action.SELL_ALL.value,
+                "action_zh": "獲利出場",
+                "condition_zh": f"累積損益達 +{exit_pct:.1f}%",
+                "trigger_price": round(target_price, 4),
+                "price_note": "依目前持股均價反推，若之後再加碼、均價與此出場價都會跟著變動",
+            })
+
+    if position is Position.HALF and capital_pool > 0:
+        trigger_price = close * (1 - drop2 / 100)
+        if price_reachable_next_session(close, trigger_price):
+            hints.append({
+                "action": Action.BUY_TRANCHE_2.value,
+                "action_zh": "第二批加碼",
+                "condition_zh": f"單日跌幅 > {drop2:.1f}%",
+                "trigger_price": round(trigger_price, 4),
+                "amount": round(capital_pool, 2),
+                "price_note": "以今日收盤為基準推算，此價位每日會依最新收盤價重新調整",
+            })
+
+    if position is Position.CASH and capital_pool > 0:
+        trigger_price = close * (1 - drop1 / 100)
+        if price_reachable_next_session(close, trigger_price):
+            hints.append({
+                "action": Action.BUY_TRANCHE_1.value,
+                "action_zh": "第一批買進",
+                "condition_zh": f"單日跌幅 > {drop1:.1f}%",
+                "trigger_price": round(trigger_price, 4),
+                "amount": round(capital_pool * 0.5, 2),
+                "price_note": "以今日收盤為基準推算，此價位每日會依最新收盤價重新調整",
+            })
+
+    return hints
 
 
 def run_backtest_iii(

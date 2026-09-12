@@ -51,6 +51,9 @@ function render(data, suffix = '', updateShared = true) {
     if (posClass && posClass !== 'cash') posEl.classList.add(posClass);
   }
 
+  const naEl = document.getElementById('next-actions-body' + suffix);
+  if (naEl) naEl.innerHTML = renderNextActionsBody(data.next_actions);
+
   if (updateShared) {
     const closeLabel = document.getElementById('close-label');
     if (closeLabel && data.date) {
@@ -178,7 +181,9 @@ function renderChart(canvasId, series) {
           ticks: {
             color: c.text,
             maxTicksLimit: 8,
-            maxRotation: 0,
+            minRotation: 0,
+            maxRotation: 60,
+            autoSkip: true,
             callback: function (value) {
               const label = this.getLabelForValue(value);
               return typeof label === 'string' && label.length >= 10
@@ -238,6 +243,32 @@ function fmtPct(n) {
   if (typeof n !== 'number') return '-';
   const sign = n > 0 ? '+' : '';
   return `${sign}${n.toFixed(2)}%`;
+}
+
+function renderNextActionsBody(nextActions) {
+  if (!nextActions || !nextActions.length) {
+    return `<div class="empty-placeholder">目前沒有價位落在明日合理漲跌範圍內，暫無需留意的操作</div>`;
+  }
+  const items = nextActions
+    .map((a) => {
+      const amountPart = typeof a.amount === 'number' ? `｜預估投入 ${fmtNumber(a.amount)}` : '';
+      const priceLine = typeof a.trigger_price === 'number'
+        ? `<div class="next-action-price">觸發價位 <strong>${fmt(a.trigger_price)}</strong>${amountPart}</div>`
+        : '';
+      const noteLine = a.price_note ? `<div class="next-action-note">${a.price_note}</div>` : '';
+      return `
+        <li class="next-action-item ${SIGNAL_CLASS[a.action] || 'none'}">
+          <div class="next-action-head">
+            <span class="next-action-badge">${a.action_zh}</span>
+            <span class="next-action-condition">${a.condition_zh}</span>
+          </div>
+          ${priceLine}
+          ${noteLine}
+        </li>
+      `;
+    })
+    .join('');
+  return `<ul class="next-actions-list">${items}</ul>`;
 }
 
 function renderLiveTrades(data, suffix = '') {
