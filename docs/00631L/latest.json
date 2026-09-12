@@ -1,10 +1,10 @@
 {
   "stock_id": "00631L",
-  "date": "2026-07-14",
-  "close": 35.88,
-  "ma5": 36.77,
-  "ma20": 37.885,
-  "ma60": 34.0923,
+  "date": "2026-09-11",
+  "close": 35.98,
+  "ma5": 37.2,
+  "ma20": 35.882,
+  "ma60": 35.6303,
   "position": "FULL",
   "position_zh": "滿倉",
   "signal": "NONE",
@@ -12,10 +12,19 @@
   "live_start_date": "2026-07-13",
   "shares": 542.5936,
   "avg_cost": 36.86,
-  "capital_pool": 0.0,
-  "total_assets": 19468.26,
-  "current_pnl": -531.74,
-  "current_pnl_pct": -2.66,
-  "ma60_alerted_this_round": false,
-  "updated_at": "2026-07-14T17:49:31Z"
+  "capital_pool": 40000.0,
+  "total_assets": 59522.52,
+  "current_pnl": -477.48,
+  "current_pnl_pct": -2.39,
+  "ma60_alerted_this_round": true,
+  "next_actions": [
+    {
+      "action": "SELL_ALL",
+      "action_zh": "獲利出場",
+      "condition_zh": "累積損益達 +7.5%",
+      "trigger_price": 39.6245,
+      "price_note": "依目前持股均價反推，若之後再加碼、均價與此出場價都會跟著變動"
+    }
+  ],
+  "updated_at": "2026-09-12T17:46:54Z"
 }

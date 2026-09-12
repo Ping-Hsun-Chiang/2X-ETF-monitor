@@ -120,11 +120,11 @@
       "V": 26.29
     },
     "2026": {
-      "I": 32.08,
-      "II": 10.28,
-      "III": 17.95,
-      "IV": 10.24,
-      "V": 17.91
+      "I": 25.65,
+      "II": 8.5,
+      "III": 14.51,
+      "IV": 8.47,
+      "V": 14.48
     }
   },
   "results": {
@@ -31110,6 +31110,13 @@
             "price": 106.7,
             "invested": 98303.1,
             "capital_after": 0.0
+          },
+          {
+            "date": "2026-07-17",
+            "action": "ALERT_MA60",
+            "price": 92.25,
+            "invested": 0.0,
+            "capital_after": 0.0
           }
         ],
         "rounds": [
@@ -31702,20 +31709,192 @@
           {
             "date": "2026-07-14",
             "total_assets": 184907.43
+          },
+          {
+            "date": "2026-07-15",
+            "total_assets": 191379.64
+          },
+          {
+            "date": "2026-07-16",
+            "total_assets": 191918.99
+          },
+          {
+            "date": "2026-07-17",
+            "total_assets": 165850.37
+          },
+          {
+            "date": "2026-07-20",
+            "total_assets": 163962.64
+          },
+          {
+            "date": "2026-07-21",
+            "total_assets": 176187.92
+          },
+          {
+            "date": "2026-07-22",
+            "total_assets": 179334.13
+          },
+          {
+            "date": "2026-07-23",
+            "total_assets": 180772.4
+          },
+          {
+            "date": "2026-07-24",
+            "total_assets": 172502.36
+          },
+          {
+            "date": "2026-07-27",
+            "total_assets": 172592.25
+          },
+          {
+            "date": "2026-07-28",
+            "total_assets": 156142.05
+          },
+          {
+            "date": "2026-07-29",
+            "total_assets": 145265.14
+          },
+          {
+            "date": "2026-07-30",
+            "total_assets": 144186.44
+          },
+          {
+            "date": "2026-07-31",
+            "total_assets": 170614.63
+          },
+          {
+            "date": "2026-08-03",
+            "total_assets": 186479.61
+          },
+          {
+            "date": "2026-08-04",
+            "total_assets": 185490.8
+          },
+          {
+            "date": "2026-08-05",
+            "total_assets": 195468.79
+          },
+          {
+            "date": "2026-08-06",
+            "total_assets": 194300.19
+          },
+          {
+            "date": "2026-08-07",
+            "total_assets": 193670.95
+          },
+          {
+            "date": "2026-08-10",
+            "total_assets": 199424.03
+          },
+          {
+            "date": "2026-08-11",
+            "total_assets": 200053.27
+          },
+          {
+            "date": "2026-08-12",
+            "total_assets": 203019.7
+          },
+          {
+            "date": "2026-08-13",
+            "total_assets": 207873.86
+          },
+          {
+            "date": "2026-08-14",
+            "total_assets": 205536.67
+          },
+          {
+            "date": "2026-08-17",
+            "total_assets": 206615.37
+          },
+          {
+            "date": "2026-08-18",
+            "total_assets": 199963.38
+          },
+          {
+            "date": "2026-08-19",
+            "total_assets": 195468.79
+          },
+          {
+            "date": "2026-08-20",
+            "total_assets": 196907.06
+          },
+          {
+            "date": "2026-08-21",
+            "total_assets": 198884.68
+          },
+          {
+            "date": "2026-08-24",
+            "total_assets": 195648.57
+          },
+          {
+            "date": "2026-08-25",
+            "total_assets": 198345.32
+          },
+          {
+            "date": "2026-08-26",
+            "total_assets": 204997.32
+          },
+          {
+            "date": "2026-08-27",
+            "total_assets": 206525.48
+          },
+          {
+            "date": "2026-08-28",
+            "total_assets": 208233.42
+          },
+          {
+            "date": "2026-08-31",
+            "total_assets": 206076.02
+          },
+          {
+            "date": "2026-09-01",
+            "total_assets": 233896.61
+          },
+          {
+            "date": "2026-09-02",
+            "total_assets": 227424.4
+          },
+          {
+            "date": "2026-09-03",
+            "total_assets": 223918.62
+          },
+          {
+            "date": "2026-09-04",
+            "total_assets": 231020.07
+          },
+          {
+            "date": "2026-09-07",
+            "total_assets": 237222.6
+          },
+          {
+            "date": "2026-09-08",
+            "total_assets": 233986.5
+          },
+          {
+            "date": "2026-09-09",
+            "total_assets": 234795.52
+          },
+          {
+            "date": "2026-09-10",
+            "total_assets": 232548.23
+          },
+          {
+            "date": "2026-09-11",
+            "total_assets": 226165.91
           }
         ],
-        "total_deposits": 140000.0,
-        "end_close": 102.85,
-        "end_capital_pool": 0.0,
+        "total_deposits": 180000.0,
+        "end_close": 103.55,
+        "end_capital_pool": 40000.0,
         "end_shares": 1797.8359,
         "end_avg_cost": 109.3571,
-        "end_market_value": 184907.43,
-        "end_total_assets": 184907.43,
-        "return_pct": 32.08,
+        "end_market_value": 186165.91,
+        "end_total_assets": 226165.91,
+        "return_pct": 25.65,
         "num_trades": 23,
         "num_buys": 15,
         "num_sells": 8,
-        "num_alerts": 1,
+        "num_alerts": 2,
         "num_completed_rounds": 8
       },
       "II": {
@@ -32522,16 +32701,188 @@
           {
             "date": "2026-07-14",
             "total_assets": 154385.8
+          },
+          {
+            "date": "2026-07-15",
+            "total_assets": 159089.63
+          },
+          {
+            "date": "2026-07-16",
+            "total_assets": 159481.62
+          },
+          {
+            "date": "2026-07-17",
+            "total_assets": 140535.64
+          },
+          {
+            "date": "2026-07-20",
+            "total_assets": 139163.69
+          },
+          {
+            "date": "2026-07-21",
+            "total_assets": 148048.7
+          },
+          {
+            "date": "2026-07-22",
+            "total_assets": 150335.28
+          },
+          {
+            "date": "2026-07-23",
+            "total_assets": 151380.58
+          },
+          {
+            "date": "2026-07-24",
+            "total_assets": 145370.13
+          },
+          {
+            "date": "2026-07-27",
+            "total_assets": 145435.46
+          },
+          {
+            "date": "2026-07-28",
+            "total_assets": 133479.89
+          },
+          {
+            "date": "2026-07-29",
+            "total_assets": 125574.84
+          },
+          {
+            "date": "2026-07-30",
+            "total_assets": 124790.87
+          },
+          {
+            "date": "2026-07-31",
+            "total_assets": 143998.18
+          },
+          {
+            "date": "2026-08-03",
+            "total_assets": 160992.95
+          },
+          {
+            "date": "2026-08-04",
+            "total_assets": 160274.31
+          },
+          {
+            "date": "2026-08-05",
+            "total_assets": 167526.05
+          },
+          {
+            "date": "2026-08-06",
+            "total_assets": 166676.75
+          },
+          {
+            "date": "2026-08-07",
+            "total_assets": 166219.43
+          },
+          {
+            "date": "2026-08-10",
+            "total_assets": 170400.61
+          },
+          {
+            "date": "2026-08-11",
+            "total_assets": 170857.93
+          },
+          {
+            "date": "2026-08-12",
+            "total_assets": 173013.85
+          },
+          {
+            "date": "2026-08-13",
+            "total_assets": 176541.72
+          },
+          {
+            "date": "2026-08-14",
+            "total_assets": 174843.12
+          },
+          {
+            "date": "2026-08-17",
+            "total_assets": 175627.09
+          },
+          {
+            "date": "2026-08-18",
+            "total_assets": 170792.6
+          },
+          {
+            "date": "2026-08-19",
+            "total_assets": 167526.05
+          },
+          {
+            "date": "2026-08-20",
+            "total_assets": 168571.35
+          },
+          {
+            "date": "2026-08-21",
+            "total_assets": 170008.63
+          },
+          {
+            "date": "2026-08-24",
+            "total_assets": 167656.71
+          },
+          {
+            "date": "2026-08-25",
+            "total_assets": 169616.64
+          },
+          {
+            "date": "2026-08-26",
+            "total_assets": 174451.13
+          },
+          {
+            "date": "2026-08-27",
+            "total_assets": 175561.76
+          },
+          {
+            "date": "2026-08-28",
+            "total_assets": 176803.05
+          },
+          {
+            "date": "2026-08-31",
+            "total_assets": 175235.1
+          },
+          {
+            "date": "2026-09-01",
+            "total_assets": 200918.9
+          },
+          {
+            "date": "2026-09-02",
+            "total_assets": 196215.07
+          },
+          {
+            "date": "2026-09-03",
+            "total_assets": 193667.16
+          },
+          {
+            "date": "2026-09-04",
+            "total_assets": 198828.31
+          },
+          {
+            "date": "2026-09-07",
+            "total_assets": 203336.14
+          },
+          {
+            "date": "2026-09-08",
+            "total_assets": 200984.23
+          },
+          {
+            "date": "2026-09-09",
+            "total_assets": 201572.21
+          },
+          {
+            "date": "2026-09-10",
+            "total_assets": 199938.93
+          },
+          {
+            "date": "2026-09-11",
+            "total_assets": 195300.43
           }
         ],
-        "total_deposits": 140000.0,
-        "end_close": 102.85,
-        "end_capital_pool": 20000.0,
+        "total_deposits": 180000.0,
+        "end_close": 103.55,
+        "end_capital_pool": 60000.0,
         "end_shares": 1306.6194,
         "end_avg_cost": 116.15,
-        "end_market_value": 134385.8,
-        "end_total_assets": 154385.8,
-        "return_pct": 10.28,
+        "end_market_value": 135300.43,
+        "end_total_assets": 195300.43,
+        "return_pct": 8.5,
         "num_trades": 27,
         "num_buys": 17,
         "num_sells": 10,
@@ -33342,16 +33693,188 @@
           {
             "date": "2026-07-14",
             "total_assets": 165135.57
+          },
+          {
+            "date": "2026-07-15",
+            "total_assets": 170215.67
+          },
+          {
+            "date": "2026-07-16",
+            "total_assets": 170639.01
+          },
+          {
+            "date": "2026-07-17",
+            "total_assets": 150177.5
+          },
+          {
+            "date": "2026-07-20",
+            "total_assets": 148695.81
+          },
+          {
+            "date": "2026-07-21",
+            "total_assets": 158291.55
+          },
+          {
+            "date": "2026-07-22",
+            "total_assets": 160761.04
+          },
+          {
+            "date": "2026-07-23",
+            "total_assets": 161889.95
+          },
+          {
+            "date": "2026-07-24",
+            "total_assets": 155398.72
+          },
+          {
+            "date": "2026-07-27",
+            "total_assets": 155469.27
+          },
+          {
+            "date": "2026-07-28",
+            "total_assets": 142557.36
+          },
+          {
+            "date": "2026-07-29",
+            "total_assets": 134019.97
+          },
+          {
+            "date": "2026-07-30",
+            "total_assets": 133173.29
+          },
+          {
+            "date": "2026-07-31",
+            "total_assets": 153917.02
+          },
+          {
+            "date": "2026-08-03",
+            "total_assets": 170671.4
+          },
+          {
+            "date": "2026-08-04",
+            "total_assets": 169895.28
+          },
+          {
+            "date": "2026-08-05",
+            "total_assets": 177727.09
+          },
+          {
+            "date": "2026-08-06",
+            "total_assets": 176809.85
+          },
+          {
+            "date": "2026-08-07",
+            "total_assets": 176315.96
+          },
+          {
+            "date": "2026-08-10",
+            "total_assets": 180831.6
+          },
+          {
+            "date": "2026-08-11",
+            "total_assets": 181325.5
+          },
+          {
+            "date": "2026-08-12",
+            "total_assets": 183653.87
+          },
+          {
+            "date": "2026-08-13",
+            "total_assets": 187463.95
+          },
+          {
+            "date": "2026-08-14",
+            "total_assets": 185629.47
+          },
+          {
+            "date": "2026-08-17",
+            "total_assets": 186476.15
+          },
+          {
+            "date": "2026-08-18",
+            "total_assets": 181254.94
+          },
+          {
+            "date": "2026-08-19",
+            "total_assets": 177727.09
+          },
+          {
+            "date": "2026-08-20",
+            "total_assets": 178856.0
+          },
+          {
+            "date": "2026-08-21",
+            "total_assets": 180408.26
+          },
+          {
+            "date": "2026-08-24",
+            "total_assets": 177868.21
+          },
+          {
+            "date": "2026-08-25",
+            "total_assets": 179984.92
+          },
+          {
+            "date": "2026-08-26",
+            "total_assets": 185206.13
+          },
+          {
+            "date": "2026-08-27",
+            "total_assets": 186405.59
+          },
+          {
+            "date": "2026-08-28",
+            "total_assets": 187746.18
+          },
+          {
+            "date": "2026-08-31",
+            "total_assets": 186052.81
+          },
+          {
+            "date": "2026-09-01",
+            "total_assets": 212191.26
+          },
+          {
+            "date": "2026-09-02",
+            "total_assets": 207111.16
+          },
+          {
+            "date": "2026-09-03",
+            "total_assets": 204359.44
+          },
+          {
+            "date": "2026-09-04",
+            "total_assets": 209933.44
+          },
+          {
+            "date": "2026-09-07",
+            "total_assets": 214801.87
+          },
+          {
+            "date": "2026-09-08",
+            "total_assets": 212261.82
+          },
+          {
+            "date": "2026-09-09",
+            "total_assets": 212896.83
+          },
+          {
+            "date": "2026-09-10",
+            "total_assets": 211132.91
+          },
+          {
+            "date": "2026-09-11",
+            "total_assets": 206123.37
           }
         ],
-        "total_deposits": 140000.0,
-        "end_close": 102.85,
-        "end_capital_pool": 20000.0,
+        "total_deposits": 180000.0,
+        "end_close": 103.55,
+        "end_capital_pool": 60000.0,
         "end_shares": 1411.1383,
         "end_avg_cost": 116.15,
-        "end_market_value": 145135.57,
-        "end_total_assets": 165135.57,
-        "return_pct": 17.95,
+        "end_market_value": 146123.37,
+        "end_total_assets": 206123.37,
+        "return_pct": 14.51,
         "num_trades": 27,
         "num_buys": 17,
         "num_sells": 10,
@@ -34130,16 +34653,188 @@
           {
             "date": "2026-07-14",
             "total_assets": 154338.53
+          },
+          {
+            "date": "2026-07-15",
+            "total_assets": 159040.71
+          },
+          {
+            "date": "2026-07-16",
+            "total_assets": 159432.56
+          },
+          {
+            "date": "2026-07-17",
+            "total_assets": 140493.24
+          },
+          {
+            "date": "2026-07-20",
+            "total_assets": 139121.77
+          },
+          {
+            "date": "2026-07-21",
+            "total_assets": 148003.66
+          },
+          {
+            "date": "2026-07-22",
+            "total_assets": 150289.44
+          },
+          {
+            "date": "2026-07-23",
+            "total_assets": 151334.36
+          },
+          {
+            "date": "2026-07-24",
+            "total_assets": 145326.03
+          },
+          {
+            "date": "2026-07-27",
+            "total_assets": 145391.34
+          },
+          {
+            "date": "2026-07-28",
+            "total_assets": 133439.98
+          },
+          {
+            "date": "2026-07-29",
+            "total_assets": 125537.71
+          },
+          {
+            "date": "2026-07-30",
+            "total_assets": 124754.01
+          },
+          {
+            "date": "2026-07-31",
+            "total_assets": 143954.56
+          },
+          {
+            "date": "2026-08-03",
+            "total_assets": 160950.39
+          },
+          {
+            "date": "2026-08-04",
+            "total_assets": 160232.01
+          },
+          {
+            "date": "2026-08-05",
+            "total_assets": 167481.19
+          },
+          {
+            "date": "2026-08-06",
+            "total_assets": 166632.19
+          },
+          {
+            "date": "2026-08-07",
+            "total_assets": 166175.03
+          },
+          {
+            "date": "2026-08-10",
+            "total_assets": 170354.74
+          },
+          {
+            "date": "2026-08-11",
+            "total_assets": 170811.9
+          },
+          {
+            "date": "2026-08-12",
+            "total_assets": 172967.06
+          },
+          {
+            "date": "2026-08-13",
+            "total_assets": 176493.7
+          },
+          {
+            "date": "2026-08-14",
+            "total_assets": 174795.69
+          },
+          {
+            "date": "2026-08-17",
+            "total_assets": 175579.38
+          },
+          {
+            "date": "2026-08-18",
+            "total_assets": 170746.59
+          },
+          {
+            "date": "2026-08-19",
+            "total_assets": 167481.19
+          },
+          {
+            "date": "2026-08-20",
+            "total_assets": 168526.12
+          },
+          {
+            "date": "2026-08-21",
+            "total_assets": 169962.9
+          },
+          {
+            "date": "2026-08-24",
+            "total_assets": 167611.81
+          },
+          {
+            "date": "2026-08-25",
+            "total_assets": 169571.05
+          },
+          {
+            "date": "2026-08-26",
+            "total_assets": 174403.84
+          },
+          {
+            "date": "2026-08-27",
+            "total_assets": 175514.08
+          },
+          {
+            "date": "2026-08-28",
+            "total_assets": 176754.93
+          },
+          {
+            "date": "2026-08-31",
+            "total_assets": 175187.54
+          },
+          {
+            "date": "2026-09-01",
+            "total_assets": 200869.33
+          },
+          {
+            "date": "2026-09-02",
+            "total_assets": 196167.16
+          },
+          {
+            "date": "2026-09-03",
+            "total_assets": 193620.14
+          },
+          {
+            "date": "2026-09-04",
+            "total_assets": 198779.48
+          },
+          {
+            "date": "2026-09-07",
+            "total_assets": 203285.73
+          },
+          {
+            "date": "2026-09-08",
+            "total_assets": 200934.64
+          },
+          {
+            "date": "2026-09-09",
+            "total_assets": 201522.41
+          },
+          {
+            "date": "2026-09-10",
+            "total_assets": 199889.71
+          },
+          {
+            "date": "2026-09-11",
+            "total_assets": 195252.84
           }
         ],
-        "total_deposits": 140000.0,
-        "end_close": 102.85,
-        "end_capital_pool": 20000.0,
+        "total_deposits": 180000.0,
+        "end_close": 103.55,
+        "end_capital_pool": 60000.0,
         "end_shares": 1306.1598,
         "end_avg_cost": 113.2808,
-        "end_market_value": 134338.53,
-        "end_total_assets": 154338.53,
-        "return_pct": 10.24,
+        "end_market_value": 135252.84,
+        "end_total_assets": 195252.84,
+        "return_pct": 8.47,
         "num_trades": 24,
         "num_buys": 15,
         "num_sells": 9,
@@ -34918,16 +35613,188 @@
           {
             "date": "2026-07-14",
             "total_assets": 165068.23
+          },
+          {
+            "date": "2026-07-15",
+            "total_assets": 170145.97
+          },
+          {
+            "date": "2026-07-16",
+            "total_assets": 170569.12
+          },
+          {
+            "date": "2026-07-17",
+            "total_assets": 150117.11
+          },
+          {
+            "date": "2026-07-20",
+            "total_assets": 148636.1
+          },
+          {
+            "date": "2026-07-21",
+            "total_assets": 158227.39
+          },
+          {
+            "date": "2026-07-22",
+            "total_assets": 160695.73
+          },
+          {
+            "date": "2026-07-23",
+            "total_assets": 161824.12
+          },
+          {
+            "date": "2026-07-24",
+            "total_assets": 155335.9
+          },
+          {
+            "date": "2026-07-27",
+            "total_assets": 155406.42
+          },
+          {
+            "date": "2026-07-28",
+            "total_assets": 142500.5
+          },
+          {
+            "date": "2026-07-29",
+            "total_assets": 133967.07
+          },
+          {
+            "date": "2026-07-30",
+            "total_assets": 133120.78
+          },
+          {
+            "date": "2026-07-31",
+            "total_assets": 153854.89
+          },
+          {
+            "date": "2026-08-03",
+            "total_assets": 170610.78
+          },
+          {
+            "date": "2026-08-04",
+            "total_assets": 169835.01
+          },
+          {
+            "date": "2026-08-05",
+            "total_assets": 177663.19
+          },
+          {
+            "date": "2026-08-06",
+            "total_assets": 176746.38
+          },
+          {
+            "date": "2026-08-07",
+            "total_assets": 176252.71
+          },
+          {
+            "date": "2026-08-10",
+            "total_assets": 180766.26
+          },
+          {
+            "date": "2026-08-11",
+            "total_assets": 181259.93
+          },
+          {
+            "date": "2026-08-12",
+            "total_assets": 183587.22
+          },
+          {
+            "date": "2026-08-13",
+            "total_assets": 187395.53
+          },
+          {
+            "date": "2026-08-14",
+            "total_assets": 185561.9
+          },
+          {
+            "date": "2026-08-17",
+            "total_assets": 186408.19
+          },
+          {
+            "date": "2026-08-18",
+            "total_assets": 181189.4
+          },
+          {
+            "date": "2026-08-19",
+            "total_assets": 177663.19
+          },
+          {
+            "date": "2026-08-20",
+            "total_assets": 178791.58
+          },
+          {
+            "date": "2026-08-21",
+            "total_assets": 180343.11
+          },
+          {
+            "date": "2026-08-24",
+            "total_assets": 177804.24
+          },
+          {
+            "date": "2026-08-25",
+            "total_assets": 179919.97
+          },
+          {
+            "date": "2026-08-26",
+            "total_assets": 185138.76
+          },
+          {
+            "date": "2026-08-27",
+            "total_assets": 186337.67
+          },
+          {
+            "date": "2026-08-28",
+            "total_assets": 187677.63
+          },
+          {
+            "date": "2026-08-31",
+            "total_assets": 185985.05
+          },
+          {
+            "date": "2026-09-01",
+            "total_assets": 212120.65
+          },
+          {
+            "date": "2026-09-02",
+            "total_assets": 207042.91
+          },
+          {
+            "date": "2026-09-03",
+            "total_assets": 204292.47
+          },
+          {
+            "date": "2026-09-04",
+            "total_assets": 209863.88
+          },
+          {
+            "date": "2026-09-07",
+            "total_assets": 214730.04
+          },
+          {
+            "date": "2026-09-08",
+            "total_assets": 212191.17
+          },
+          {
+            "date": "2026-09-09",
+            "total_assets": 212825.89
+          },
+          {
+            "date": "2026-09-10",
+            "total_assets": 211062.79
+          },
+          {
+            "date": "2026-09-11",
+            "total_assets": 206055.57
           }
         ],
-        "total_deposits": 140000.0,
-        "end_close": 102.85,
-        "end_capital_pool": 20000.0,
+        "total_deposits": 180000.0,
+        "end_close": 103.55,
+        "end_capital_pool": 60000.0,
         "end_shares": 1410.4835,
         "end_avg_cost": 113.2808,
-        "end_market_value": 145068.23,
-        "end_total_assets": 165068.23,
-        "return_pct": 17.91,
+        "end_market_value": 146055.57,
+        "end_total_assets": 206055.57,
+        "return_pct": 14.48,
         "num_trades": 24,
         "num_buys": 15,
         "num_sells": 9,
@@ -34936,5 +35803,5 @@
       }
     }
   },
-  "updated_at": "2026-07-14T18:19:12Z"
+  "updated_at": "2026-09-12T17:47:09Z"
 }
