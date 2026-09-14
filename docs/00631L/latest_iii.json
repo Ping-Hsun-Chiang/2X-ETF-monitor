@@ -1,21 +1,21 @@
 {
   "stock_id": "00631L",
-  "date": "2026-09-11",
-  "close": 35.98,
-  "ma5": 37.2,
-  "ma20": 35.882,
-  "ma60": 35.6303,
+  "date": "2026-09-14",
+  "close": 35.4,
+  "ma5": 36.712,
+  "ma20": 35.8545,
+  "ma60": 35.5815,
   "position": "FULL",
   "position_zh": "滿倉",
-  "signal": "BUY_TRANCHE_2",
-  "signal_zh": "第二批加碼（今日跌幅 > 3% · 投剩餘全部）",
+  "signal": "NONE",
+  "signal_zh": "無訊號",
   "live_start_date": "2026-07-13",
   "shares": 1869.7546,
   "avg_cost": 36.5556,
   "capital_pool": 0.0,
-  "total_assets": 67273.77,
-  "current_pnl": -1076.31,
-  "current_pnl_pct": -1.57,
+  "total_assets": 66189.31,
+  "current_pnl": -2160.76,
+  "current_pnl_pct": -3.16,
   "ma60_alerted_this_round": false,
   "next_actions": [
     {
@@ -26,6 +26,6 @@
       "price_note": "依目前持股均價反推，若之後再加碼、均價與此出場價都會跟著變動"
     }
   ],
-  "updated_at": "2026-09-12T17:46:54Z",
+  "updated_at": "2026-09-14T11:01:31Z",
   "strategy": "III"
 }
