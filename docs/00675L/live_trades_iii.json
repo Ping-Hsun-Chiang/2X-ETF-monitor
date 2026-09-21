@@ -1,15 +1,15 @@
 {
   "stock_id": "00675L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-09-18",
+  "as_of_date": "2026-09-21",
   "summary": {
-    "num_completed_rounds": 6,
-    "total_realized_pnl": 8508.46,
+    "num_completed_rounds": 7,
+    "total_realized_pnl": 12228.58,
     "total_deposits": 60000.0,
-    "capital_pool": 0.0,
-    "market_value": 70431.44,
-    "total_assets": 70431.44,
-    "current_open_pnl": 1922.97
+    "capital_pool": 72228.6,
+    "market_value": 0.0,
+    "total_assets": 72228.6,
+    "current_open_pnl": 0.0
   },
   "trades": [
     {
@@ -209,6 +209,17 @@
       "invested_amount": 34254.24,
       "shares_after": 213.9473,
       "avg_cost_after": 320.212
+    },
+    {
+      "date": "2026-09-21",
+      "action": "SELL_ALL",
+      "action_zh": "獲利出場",
+      "price": 337.6,
+      "capital_before": 0.0,
+      "capital_after": 72228.6,
+      "invested_amount": -72228.6,
+      "shares_after": 0.0,
+      "avg_cost_after": 0.0
     }
   ],
   "rounds": [
@@ -301,19 +312,23 @@
       "pnl_pct": 5.52,
       "capital_after": 68508.47,
       "ma60_alerted": false
+    },
+    {
+      "entry_date": "2026-09-08",
+      "exit_date": "2026-09-21",
+      "days_held": 13,
+      "initial_capital": 68508.47,
+      "entry_avg_price": 320.212,
+      "exit_price": 337.6,
+      "position_taken": "FULL",
+      "total_invested": 68508.47,
+      "total_proceeds": 72228.6,
+      "pnl": 3720.12,
+      "pnl_pct": 5.43,
+      "capital_after": 72228.6,
+      "ma60_alerted": false
     }
   ],
-  "current_round": {
-    "entry_date": "2026-09-08",
-    "initial_capital": 68508.47,
-    "shares": 213.9473,
-    "avg_cost": 320.212,
-    "total_invested": 68508.47,
-    "market_value": 70431.44,
-    "current_pnl": 1922.97,
-    "current_pnl_pct": 2.81,
-    "position_taken": "FULL",
-    "ma60_alerted": false
-  },
-  "updated_at": "2026-09-18T10:06:58Z"
+  "current_round": null,
+  "updated_at": "2026-09-21T11:11:23Z"
 }
