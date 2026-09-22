@@ -1,14 +1,14 @@
 {
   "stock_id": "00631L",
-  "date": "2026-09-21",
-  "close": 38.45,
-  "ma5": 36.632,
-  "ma20": 36.413,
-  "ma60": 35.4172,
+  "date": "2026-09-22",
+  "close": 38.52,
+  "ma5": 37.318,
+  "ma20": 36.605,
+  "ma60": 35.4545,
   "position": "CASH",
   "position_zh": "空手",
-  "signal": "SELL_ALL",
-  "signal_zh": "獲利出場（累積損益達 +3%）",
+  "signal": "NONE",
+  "signal_zh": "無訊號",
   "live_start_date": "2026-07-13",
   "shares": 0.0,
   "avg_cost": 0.0,
@@ -22,11 +22,11 @@
       "action": "BUY_TRANCHE_1",
       "action_zh": "第一批買進",
       "condition_zh": "單日跌幅 > 1.0%",
-      "trigger_price": 38.0655,
+      "trigger_price": 38.1348,
       "amount": 35946.03,
       "price_note": "以今日收盤為基準推算，此價位每日會依最新收盤價重新調整"
     }
   ],
-  "updated_at": "2026-09-21T11:11:09Z",
+  "updated_at": "2026-09-22T10:24:36Z",
   "strategy": "III"
 }
