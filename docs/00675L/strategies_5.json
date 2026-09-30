@@ -120,11 +120,11 @@
       "V": 22.2
     },
     "2026": {
-      "I": 32.09,
-      "II": 13.35,
-      "III": 19.86,
-      "IV": 16.04,
-      "V": 22.77
+      "I": 34.67,
+      "II": 15.23,
+      "III": 21.89,
+      "IV": 17.99,
+      "V": 24.87
     }
   },
   "results": {
@@ -32241,16 +32241,20 @@
           {
             "date": "2026-09-29",
             "total_assets": 237755.8
+          },
+          {
+            "date": "2026-09-30",
+            "total_assets": 242403.66
           }
         ],
         "total_deposits": 180000.0,
-        "end_close": 334.0,
+        "end_close": 341.85,
         "end_capital_pool": 40000.0,
         "end_shares": 592.0832,
         "end_avg_cost": 331.476,
-        "end_market_value": 197755.8,
-        "end_total_assets": 237755.8,
-        "return_pct": 32.09,
+        "end_market_value": 202403.66,
+        "end_total_assets": 242403.66,
+        "return_pct": 34.67,
         "num_trades": 23,
         "num_buys": 15,
         "num_sells": 8,
@@ -33273,16 +33277,20 @@
           {
             "date": "2026-09-29",
             "total_assets": 204028.92
+          },
+          {
+            "date": "2026-09-30",
+            "total_assets": 207414.04
           }
         ],
         "total_deposits": 180000.0,
-        "end_close": 334.0,
+        "end_close": 341.85,
         "end_capital_pool": 60000.0,
         "end_shares": 431.2243,
         "end_avg_cost": 351.8,
-        "end_market_value": 144028.92,
-        "end_total_assets": 204028.92,
-        "return_pct": 13.35,
+        "end_market_value": 147414.04,
+        "end_total_assets": 207414.04,
+        "return_pct": 15.23,
         "num_trades": 27,
         "num_buys": 17,
         "num_sells": 10,
@@ -34305,16 +34313,20 @@
           {
             "date": "2026-09-29",
             "total_assets": 215742.66
+          },
+          {
+            "date": "2026-09-30",
+            "total_assets": 219403.08
           }
         ],
         "total_deposits": 180000.0,
-        "end_close": 334.0,
+        "end_close": 341.85,
         "end_capital_pool": 60000.0,
         "end_shares": 466.2954,
         "end_avg_cost": 351.8,
-        "end_market_value": 155742.66,
-        "end_total_assets": 215742.66,
-        "return_pct": 19.86,
+        "end_market_value": 159403.08,
+        "end_total_assets": 219403.08,
+        "return_pct": 21.89,
         "num_trades": 27,
         "num_buys": 17,
         "num_sells": 10,
@@ -35337,16 +35349,20 @@
           {
             "date": "2026-09-29",
             "total_assets": 208875.56
+          },
+          {
+            "date": "2026-09-30",
+            "total_assets": 212374.58
           }
         ],
         "total_deposits": 180000.0,
-        "end_close": 334.0,
+        "end_close": 341.85,
         "end_capital_pool": 60000.0,
         "end_shares": 445.7352,
         "end_avg_cost": 343.2208,
-        "end_market_value": 148875.56,
-        "end_total_assets": 208875.56,
-        "return_pct": 16.04,
+        "end_market_value": 152374.58,
+        "end_total_assets": 212374.58,
+        "return_pct": 17.99,
         "num_trades": 27,
         "num_buys": 17,
         "num_sells": 10,
@@ -36369,16 +36385,20 @@
           {
             "date": "2026-09-29",
             "total_assets": 220991.06
+          },
+          {
+            "date": "2026-09-30",
+            "total_assets": 224774.84
           }
         ],
         "total_deposits": 180000.0,
-        "end_close": 334.0,
+        "end_close": 341.85,
         "end_capital_pool": 60000.0,
         "end_shares": 482.0092,
         "end_avg_cost": 343.2208,
-        "end_market_value": 160991.06,
-        "end_total_assets": 220991.06,
-        "return_pct": 22.77,
+        "end_market_value": 164774.84,
+        "end_total_assets": 224774.84,
+        "return_pct": 24.87,
         "num_trades": 27,
         "num_buys": 17,
         "num_sells": 10,
@@ -36387,5 +36407,5 @@
       }
     }
   },
-  "updated_at": "2026-09-29T11:38:21Z"
+  "updated_at": "2026-09-30T11:26:07Z"
 }
