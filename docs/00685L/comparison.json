@@ -625,25 +625,25 @@
     {
       "year": 2026,
       "start_date": "2026-01-02",
-      "end_date": "2026-09-30",
+      "end_date": "2026-10-01",
       "baseline_adjusted": 5.5708,
       "trigger_first_pct": 5.0,
       "trigger_second_pct": 10.0,
       "strategy_a": {
-        "months_deposited": 9,
-        "total_deposits": 180000.0,
-        "end_close": 12.91,
-        "end_capital_pool": 60000.0,
-        "end_shares": 13538.9844,
-        "end_avg_cost": 12.1579,
-        "end_market_value": 174788.29,
-        "end_total_assets": 234788.29,
-        "year_gain": 54788.29,
-        "return_pct": 30.44,
-        "realized_pnl": 44604.97,
-        "unrealized_pnl": 10183.32,
-        "num_trades": 22,
-        "num_completed_rounds": 7,
+        "months_deposited": 10,
+        "total_deposits": 200000.0,
+        "end_close": 13.1,
+        "end_capital_pool": 257360.7,
+        "end_shares": 0.0,
+        "end_avg_cost": 0.0,
+        "end_market_value": 0.0,
+        "end_total_assets": 257360.7,
+        "year_gain": 57360.7,
+        "return_pct": 28.68,
+        "realized_pnl": 57360.7,
+        "unrealized_pnl": 0.0,
+        "num_trades": 23,
+        "num_completed_rounds": 8,
         "trades": [
           {
             "date": "2026-01-09",
@@ -842,6 +842,15 @@
             "capital_after": 20000.0,
             "shares_after": 13538.9844,
             "avg_cost_after": 12.1579
+          },
+          {
+            "date": "2026-10-01",
+            "action": "SELL_ALL",
+            "price": 13.1,
+            "invested_amount": -177360.7,
+            "capital_after": 257360.7,
+            "shares_after": 0.0,
+            "avg_cost_after": 0.0
           }
         ],
         "rounds": [
@@ -928,18 +937,30 @@
             "pnl": 15076.73,
             "pnl_pct": 10.08,
             "position_taken": "FULL"
+          },
+          {
+            "entry_date": "2026-06-24",
+            "exit_date": "2026-10-01",
+            "days_held": 99,
+            "entry_avg_price": 12.1579,
+            "exit_price": 13.1,
+            "total_invested": 164604.97,
+            "total_proceeds": 177360.7,
+            "pnl": 12755.72,
+            "pnl_pct": 7.75,
+            "position_taken": "FULL"
           }
         ]
       },
       "strategy_b": {
-        "months_deposited": 9,
-        "total_deposits": 180000.0,
-        "end_close": 12.91,
-        "end_capital_pool": 180000.0,
+        "months_deposited": 10,
+        "total_deposits": 200000.0,
+        "end_close": 13.1,
+        "end_capital_pool": 200000.0,
         "end_shares": 0.0,
         "end_avg_cost": 0.0,
         "end_market_value": 0.0,
-        "end_total_assets": 180000.0,
+        "end_total_assets": 200000.0,
         "year_gain": 0.0,
         "return_pct": 0.0,
         "realized_pnl": 0,
@@ -952,5 +973,5 @@
     }
   ],
   "note": "兩策略內部皆用 adjusted (還原後) 價位計算。策略 B 的 baseline = 該年第一個交易日 adjusted close。",
-  "updated_at": "2026-09-30T11:25:57Z"
+  "updated_at": "2026-10-01T11:53:24Z"
 }

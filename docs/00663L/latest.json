@@ -1,30 +1,30 @@
 {
   "stock_id": "00663L",
-  "date": "2026-09-30",
-  "close": 112.85,
-  "ma5": 112.09,
-  "ma20": 107.4075,
-  "ma60": 101.8983,
-  "position": "FULL",
-  "position_zh": "滿倉",
-  "signal": "NONE",
-  "signal_zh": "無訊號",
+  "date": "2026-10-01",
+  "close": 114.6,
+  "ma5": 112.66,
+  "ma20": 107.745,
+  "ma60": 101.9392,
+  "position": "CASH",
+  "position_zh": "空手",
+  "signal": "SELL_ALL",
+  "signal_zh": "獲利出場（累積損益達 +7.5%）",
   "live_start_date": "2026-07-13",
-  "shares": 189.3043,
-  "avg_cost": 105.65,
-  "capital_pool": 40000.0,
-  "total_assets": 61362.99,
-  "current_pnl": 1362.99,
-  "current_pnl_pct": 6.81,
-  "ma60_alerted_this_round": true,
+  "shares": 0.0,
+  "avg_cost": 0.0,
+  "capital_pool": 81694.27,
+  "total_assets": 81694.27,
+  "current_pnl": 0.0,
+  "current_pnl_pct": 0.0,
+  "ma60_alerted_this_round": false,
   "next_actions": [
     {
-      "action": "SELL_ALL",
-      "action_zh": "獲利出場",
-      "condition_zh": "累積損益達 +7.5%",
-      "trigger_price": 113.5738,
-      "price_note": "依目前持股均價反推，若之後再加碼、均價與此出場價都會跟著變動"
+      "action": "BUY_TRANCHE_1",
+      "action_zh": "第一批買進",
+      "condition_zh": "收盤跌破 MA5",
+      "trigger_price": 112.66,
+      "amount": 40847.14
     }
   ],
-  "updated_at": "2026-09-30T11:25:59Z"
+  "updated_at": "2026-10-01T11:53:26Z"
 }
