@@ -1,14 +1,14 @@
 {
   "stock_id": "00675L",
-  "date": "2026-10-01",
-  "close": 347.15,
-  "ma5": 341.02,
-  "ma20": 326.435,
-  "ma60": 308.5892,
+  "date": "2026-10-02",
+  "close": 347.5,
+  "ma5": 342.2,
+  "ma20": 328.0425,
+  "ma60": 308.9883,
   "position": "CASH",
   "position_zh": "空手",
-  "signal": "SELL_ALL",
-  "signal_zh": "獲利出場（累積損益達 +3%）",
+  "signal": "NONE",
+  "signal_zh": "無訊號",
   "live_start_date": "2026-07-13",
   "shares": 0.0,
   "avg_cost": 0.0,
@@ -22,11 +22,11 @@
       "action": "BUY_TRANCHE_1",
       "action_zh": "第一批買進",
       "condition_zh": "單日跌幅 > 1.0%",
-      "trigger_price": 343.6785,
+      "trigger_price": 344.025,
       "amount": 46825.23,
       "price_note": "以今日收盤為基準推算，此價位每日會依最新收盤價重新調整"
     }
   ],
-  "updated_at": "2026-10-01T11:53:30Z",
+  "updated_at": "2026-10-02T11:25:26Z",
   "strategy": "III"
 }
