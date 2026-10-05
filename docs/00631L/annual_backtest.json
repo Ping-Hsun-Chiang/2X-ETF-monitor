@@ -3,7 +3,7 @@
   "strategy": "I",
   "monthly_deposit": 20000.0,
   "start_date": "2014-10-31",
-  "end_date": "2026-10-02",
+  "end_date": "2026-10-05",
   "segments": [
     {
       "key": "2014",
@@ -2671,20 +2671,20 @@
       "key": "2026_post_split",
       "label": "2026 分割後",
       "start_date": "2026-03-31",
-      "end_date": "2026-10-02",
+      "end_date": "2026-10-05",
       "monthly_deposit": 20000.0,
       "months_deposited": 8,
       "total_deposits": 160000.0,
-      "end_close": 39.58,
-      "end_capital_pool": 60000.0,
-      "end_shares": 2823.6724,
-      "end_avg_cost": 37.954,
-      "end_market_value": 111760.95,
-      "end_total_assets": 171760.95,
-      "realized_pnl": 7169.6,
-      "unrealized_pnl": 4591.36,
-      "year_gain": 11760.95,
-      "return_pct": 7.35,
+      "end_close": 41.54,
+      "end_capital_pool": 177295.35,
+      "end_shares": 0.0,
+      "end_avg_cost": 0.0,
+      "end_market_value": 0.0,
+      "end_total_assets": 177295.35,
+      "realized_pnl": 17295.35,
+      "unrealized_pnl": 0.0,
+      "year_gain": 17295.35,
+      "return_pct": 10.81,
       "trades": [
         {
           "date": "2026-06-26",
@@ -2745,6 +2745,16 @@
           "capital_after": 0.0,
           "shares_after": 2823.6724,
           "avg_cost_after": 37.954
+        },
+        {
+          "date": "2026-10-05",
+          "action": "SELL_ALL",
+          "action_zh": "獲利出場",
+          "price": 41.54,
+          "invested_amount": -117295.35,
+          "capital_after": 177295.35,
+          "shares_after": 0.0,
+          "avg_cost_after": 0.0
         }
       ],
       "rounds": [
@@ -2761,9 +2771,23 @@
           "pnl_pct": 8.96,
           "position_taken": "FULL",
           "ma60_alerted": false
+        },
+        {
+          "entry_date": "2026-07-06",
+          "exit_date": "2026-10-05",
+          "days_held": 91,
+          "initial_capital": 107169.6,
+          "total_invested": 107169.6,
+          "total_proceeds": 117295.35,
+          "entry_avg_price": 37.954,
+          "exit_price": 41.54,
+          "pnl": 10125.75,
+          "pnl_pct": 9.45,
+          "position_taken": "FULL",
+          "ma60_alerted": true
         }
       ]
     }
   ],
-  "updated_at": "2026-10-02T11:25:18Z"
+  "updated_at": "2026-10-05T12:45:53Z"
 }
