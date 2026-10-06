@@ -31955,10 +31955,14 @@
           {
             "date": "2026-10-05",
             "total_assets": 275830.2
+          },
+          {
+            "date": "2026-10-06",
+            "total_assets": 275830.2
           }
         ],
         "total_deposits": 200000.0,
-        "end_close": 120.05,
+        "end_close": 121.1,
         "end_capital_pool": 275830.2,
         "end_shares": 0.0,
         "end_avg_cost": 0.0,
@@ -33021,10 +33025,14 @@
           {
             "date": "2026-10-05",
             "total_assets": 236859.65
+          },
+          {
+            "date": "2026-10-06",
+            "total_assets": 236859.65
           }
         ],
         "total_deposits": 200000.0,
-        "end_close": 120.05,
+        "end_close": 121.1,
         "end_capital_pool": 236859.65,
         "end_shares": 0.0,
         "end_avg_cost": 0.0,
@@ -34087,10 +34095,14 @@
           {
             "date": "2026-10-05",
             "total_assets": 249407.15
+          },
+          {
+            "date": "2026-10-06",
+            "total_assets": 249407.15
           }
         ],
         "total_deposits": 200000.0,
-        "end_close": 120.05,
+        "end_close": 121.1,
         "end_capital_pool": 249407.15,
         "end_shares": 0.0,
         "end_avg_cost": 0.0,
@@ -35121,10 +35133,14 @@
           {
             "date": "2026-10-05",
             "total_assets": 236804.48
+          },
+          {
+            "date": "2026-10-06",
+            "total_assets": 236804.48
           }
         ],
         "total_deposits": 200000.0,
-        "end_close": 120.05,
+        "end_close": 121.1,
         "end_capital_pool": 236804.48,
         "end_shares": 0.0,
         "end_avg_cost": 0.0,
@@ -36155,10 +36171,14 @@
           {
             "date": "2026-10-05",
             "total_assets": 249328.55
+          },
+          {
+            "date": "2026-10-06",
+            "total_assets": 249328.55
           }
         ],
         "total_deposits": 200000.0,
-        "end_close": 120.05,
+        "end_close": 121.1,
         "end_capital_pool": 249328.55,
         "end_shares": 0.0,
         "end_avg_cost": 0.0,
@@ -36173,5 +36193,5 @@
       }
     }
   },
-  "updated_at": "2026-10-05T12:46:04Z"
+  "updated_at": "2026-10-06T12:16:08Z"
 }

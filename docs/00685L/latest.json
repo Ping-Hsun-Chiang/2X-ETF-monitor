@@ -1,10 +1,10 @@
 {
   "stock_id": "00685L",
-  "date": "2026-10-05",
-  "close": 13.76,
-  "ma5": 13.106,
-  "ma20": 12.481,
-  "ma60": 11.6833,
+  "date": "2026-10-06",
+  "close": 13.87,
+  "ma5": 13.352,
+  "ma20": 12.568,
+  "ma60": 11.713,
   "position": "CASH",
   "position_zh": "空手",
   "signal": "NONE",
@@ -22,9 +22,9 @@
       "action": "BUY_TRANCHE_1",
       "action_zh": "第一批買進",
       "condition_zh": "收盤跌破 MA5",
-      "trigger_price": 13.106,
+      "trigger_price": 13.352,
       "amount": 40844.37
     }
   ],
-  "updated_at": "2026-10-05T12:45:56Z"
+  "updated_at": "2026-10-06T12:16:05Z"
 }
