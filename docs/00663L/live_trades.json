@@ -1,13 +1,13 @@
 {
   "stock_id": "00663L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-10-07",
+  "as_of_date": "2026-10-08",
   "summary": {
     "num_completed_rounds": 1,
     "total_realized_pnl": 1694.27,
     "total_deposits": 80000.0,
-    "capital_pool": 81694.27,
-    "market_value": 0.0,
+    "capital_pool": 40847.14,
+    "market_value": 40847.14,
     "total_assets": 81694.27,
     "current_open_pnl": 0.0
   },
@@ -55,6 +55,17 @@
       "invested_amount": -21694.27,
       "shares_after": 0.0,
       "avg_cost_after": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "action": "BUY_TRANCHE_1",
+      "action_zh": "第一批買進",
+      "price": 118.1,
+      "capital_before": 81694.27,
+      "capital_after": 40847.14,
+      "invested_amount": 40847.14,
+      "shares_after": 345.8691,
+      "avg_cost_after": 118.1
     }
   ],
   "rounds": [
@@ -74,6 +85,17 @@
       "ma60_alerted": true
     }
   ],
-  "current_round": null,
-  "updated_at": "2026-10-07T12:07:40Z"
+  "current_round": {
+    "entry_date": "2026-10-08",
+    "initial_capital": 81694.27,
+    "shares": 345.8691,
+    "avg_cost": 118.1,
+    "total_invested": 40847.14,
+    "market_value": 40847.14,
+    "current_pnl": 0.0,
+    "current_pnl_pct": 0.0,
+    "position_taken": "HALF",
+    "ma60_alerted": false
+  },
+  "updated_at": "2026-10-08T12:18:02Z"
 }

@@ -3,7 +3,7 @@
   "strategy": "III",
   "monthly_deposit": 20000.0,
   "start_date": "2016-10-05",
-  "end_date": "2026-10-07",
+  "end_date": "2026-10-08",
   "segments": [
     {
       "key": "2016",
@@ -3528,15 +3528,15 @@
       "key": "2026",
       "label": "2026",
       "start_date": "2026-01-02",
-      "end_date": "2026-10-07",
+      "end_date": "2026-10-08",
       "monthly_deposit": 20000.0,
       "months_deposited": 10,
       "total_deposits": 200000.0,
-      "end_close": 366.25,
-      "end_capital_pool": 249941.35,
-      "end_shares": 0.0,
-      "end_avg_cost": 0.0,
-      "end_market_value": 0.0,
+      "end_close": 357.75,
+      "end_capital_pool": 124970.68,
+      "end_shares": 349.324,
+      "end_avg_cost": 357.75,
+      "end_market_value": 124970.68,
       "end_total_assets": 249941.35,
       "realized_pnl": 49941.35,
       "unrealized_pnl": 0.0,
@@ -3822,6 +3822,16 @@
           "capital_after": 249941.35,
           "shares_after": 0.0,
           "avg_cost_after": 0.0
+        },
+        {
+          "date": "2026-10-08",
+          "action": "BUY_TRANCHE_1",
+          "action_zh": "第一批買進",
+          "price": 357.75,
+          "invested_amount": 124970.68,
+          "capital_after": 124970.68,
+          "shares_after": 349.324,
+          "avg_cost_after": 357.75
         }
       ],
       "rounds": [
@@ -3982,5 +3992,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-07T12:07:44Z"
+  "updated_at": "2026-10-08T12:18:07Z"
 }

@@ -31124,6 +31124,13 @@
             "price": 120.05,
             "invested": -215830.2,
             "capital_after": 275830.2
+          },
+          {
+            "date": "2026-10-08",
+            "action": "BUY_TRANCHE_1",
+            "price": 118.1,
+            "invested": 137915.1,
+            "capital_after": 137915.1
           }
         ],
         "rounds": [
@@ -31963,18 +31970,22 @@
           {
             "date": "2026-10-07",
             "total_assets": 275830.2
+          },
+          {
+            "date": "2026-10-08",
+            "total_assets": 275830.2
           }
         ],
         "total_deposits": 200000.0,
-        "end_close": 120.8,
-        "end_capital_pool": 275830.2,
-        "end_shares": 0.0,
-        "end_avg_cost": 0.0,
-        "end_market_value": 0.0,
+        "end_close": 118.1,
+        "end_capital_pool": 137915.1,
+        "end_shares": 1167.7824,
+        "end_avg_cost": 118.1,
+        "end_market_value": 137915.1,
         "end_total_assets": 275830.2,
         "return_pct": 37.92,
-        "num_trades": 24,
-        "num_buys": 15,
+        "num_trades": 25,
+        "num_buys": 16,
         "num_sells": 9,
         "num_alerts": 2,
         "num_completed_rounds": 9
@@ -32176,6 +32187,13 @@
             "price": 120.05,
             "invested": -156859.65,
             "capital_after": 236859.65
+          },
+          {
+            "date": "2026-10-08",
+            "action": "BUY_TRANCHE_1",
+            "price": 118.1,
+            "invested": 118429.83,
+            "capital_after": 118429.83
           }
         ],
         "rounds": [
@@ -33037,18 +33055,22 @@
           {
             "date": "2026-10-07",
             "total_assets": 236859.65
+          },
+          {
+            "date": "2026-10-08",
+            "total_assets": 236859.65
           }
         ],
         "total_deposits": 200000.0,
-        "end_close": 120.8,
-        "end_capital_pool": 236859.65,
-        "end_shares": 0.0,
-        "end_avg_cost": 0.0,
-        "end_market_value": 0.0,
+        "end_close": 118.1,
+        "end_capital_pool": 118429.83,
+        "end_shares": 1002.7928,
+        "end_avg_cost": 118.1,
+        "end_market_value": 118429.83,
         "end_total_assets": 236859.65,
         "return_pct": 18.43,
-        "num_trades": 28,
-        "num_buys": 17,
+        "num_trades": 29,
+        "num_buys": 18,
         "num_sells": 11,
         "num_alerts": 0,
         "num_completed_rounds": 11
@@ -33250,6 +33272,13 @@
             "price": 120.05,
             "invested": -169407.15,
             "capital_after": 249407.15
+          },
+          {
+            "date": "2026-10-08",
+            "action": "BUY_TRANCHE_1",
+            "price": 118.1,
+            "invested": 124703.57,
+            "capital_after": 124703.57
           }
         ],
         "rounds": [
@@ -34111,18 +34140,22 @@
           {
             "date": "2026-10-07",
             "total_assets": 249407.15
+          },
+          {
+            "date": "2026-10-08",
+            "total_assets": 249407.15
           }
         ],
         "total_deposits": 200000.0,
-        "end_close": 120.8,
-        "end_capital_pool": 249407.15,
-        "end_shares": 0.0,
-        "end_avg_cost": 0.0,
-        "end_market_value": 0.0,
+        "end_close": 118.1,
+        "end_capital_pool": 124703.57,
+        "end_shares": 1055.9151,
+        "end_avg_cost": 118.1,
+        "end_market_value": 124703.57,
         "end_total_assets": 249407.15,
         "return_pct": 24.7,
-        "num_trades": 28,
-        "num_buys": 17,
+        "num_trades": 29,
+        "num_buys": 18,
         "num_sells": 11,
         "num_alerts": 0,
         "num_completed_rounds": 11
@@ -34303,6 +34336,13 @@
             "price": 120.05,
             "invested": -156804.48,
             "capital_after": 236804.48
+          },
+          {
+            "date": "2026-10-08",
+            "action": "BUY_TRANCHE_1",
+            "price": 118.1,
+            "invested": 118402.24,
+            "capital_after": 118402.24
           }
         ],
         "rounds": [
@@ -35153,18 +35193,22 @@
           {
             "date": "2026-10-07",
             "total_assets": 236804.48
+          },
+          {
+            "date": "2026-10-08",
+            "total_assets": 236804.48
           }
         ],
         "total_deposits": 200000.0,
-        "end_close": 120.8,
-        "end_capital_pool": 236804.48,
-        "end_shares": 0.0,
-        "end_avg_cost": 0.0,
-        "end_market_value": 0.0,
+        "end_close": 118.1,
+        "end_capital_pool": 118402.24,
+        "end_shares": 1002.5592,
+        "end_avg_cost": 118.1,
+        "end_market_value": 118402.24,
         "end_total_assets": 236804.48,
         "return_pct": 18.4,
-        "num_trades": 25,
-        "num_buys": 15,
+        "num_trades": 26,
+        "num_buys": 16,
         "num_sells": 10,
         "num_alerts": 0,
         "num_completed_rounds": 10
@@ -35345,6 +35389,13 @@
             "price": 120.05,
             "invested": -169328.55,
             "capital_after": 249328.55
+          },
+          {
+            "date": "2026-10-08",
+            "action": "BUY_TRANCHE_1",
+            "price": 118.1,
+            "invested": 124664.27,
+            "capital_after": 124664.27
           }
         ],
         "rounds": [
@@ -36195,23 +36246,27 @@
           {
             "date": "2026-10-07",
             "total_assets": 249328.55
+          },
+          {
+            "date": "2026-10-08",
+            "total_assets": 249328.55
           }
         ],
         "total_deposits": 200000.0,
-        "end_close": 120.8,
-        "end_capital_pool": 249328.55,
-        "end_shares": 0.0,
-        "end_avg_cost": 0.0,
-        "end_market_value": 0.0,
+        "end_close": 118.1,
+        "end_capital_pool": 124664.27,
+        "end_shares": 1055.5823,
+        "end_avg_cost": 118.1,
+        "end_market_value": 124664.27,
         "end_total_assets": 249328.55,
         "return_pct": 24.66,
-        "num_trades": 25,
-        "num_buys": 15,
+        "num_trades": 26,
+        "num_buys": 16,
         "num_sells": 10,
         "num_alerts": 0,
         "num_completed_rounds": 10
       }
     }
   },
-  "updated_at": "2026-10-07T12:07:42Z"
+  "updated_at": "2026-10-08T12:18:05Z"
 }

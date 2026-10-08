@@ -1,30 +1,43 @@
 {
   "stock_id": "00685L",
-  "date": "2026-10-07",
-  "close": 13.84,
-  "ma5": 13.538,
-  "ma20": 12.634,
-  "ma60": 11.7423,
-  "position": "CASH",
-  "position_zh": "空手",
-  "signal": "NONE",
-  "signal_zh": "無訊號",
+  "date": "2026-10-08",
+  "close": 13.53,
+  "ma5": 13.624,
+  "ma20": 12.693,
+  "ma60": 11.7725,
+  "position": "HALF",
+  "position_zh": "半倉",
+  "signal": "BUY_TRANCHE_1",
+  "signal_zh": "第一批買進（跌破週線 · 投池 × 0.5）",
   "live_start_date": "2026-07-13",
-  "shares": 0.0,
-  "avg_cost": 0.0,
-  "capital_pool": 81688.74,
+  "shares": 3018.8005,
+  "avg_cost": 13.53,
+  "capital_pool": 40844.37,
   "total_assets": 81688.74,
   "current_pnl": 0.0,
   "current_pnl_pct": 0.0,
   "ma60_alerted_this_round": false,
   "next_actions": [
     {
-      "action": "BUY_TRANCHE_1",
-      "action_zh": "第一批買進",
-      "condition_zh": "收盤跌破 MA5",
-      "trigger_price": 13.538,
+      "action": "SELL_ALL",
+      "action_zh": "獲利出場",
+      "condition_zh": "累積損益達 +7.5%",
+      "trigger_price": 14.5447,
+      "price_note": "依目前持股均價反推，若之後再加碼、均價與此出場價都會跟著變動"
+    },
+    {
+      "action": "BUY_TRANCHE_2",
+      "action_zh": "第二批加碼",
+      "condition_zh": "收盤跌破 MA20",
+      "trigger_price": 12.693,
       "amount": 40844.37
+    },
+    {
+      "action": "ALERT_MA60",
+      "action_zh": "MA60 警戒（僅提示，不自動加碼）",
+      "condition_zh": "收盤跌破 MA60",
+      "trigger_price": 11.7725
     }
   ],
-  "updated_at": "2026-10-07T12:07:36Z"
+  "updated_at": "2026-10-08T12:17:58Z"
 }
