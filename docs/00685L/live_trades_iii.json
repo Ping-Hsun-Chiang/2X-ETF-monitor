@@ -1,15 +1,15 @@
 {
   "stock_id": "00685L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-10-08",
+  "as_of_date": "2026-10-12",
   "summary": {
     "num_completed_rounds": 8,
     "total_realized_pnl": 12934.92,
     "total_deposits": 80000.0,
     "capital_pool": 46467.46,
-    "market_value": 46467.46,
-    "total_assets": 92934.92,
-    "current_open_pnl": 0.0
+    "market_value": 46536.15,
+    "total_assets": 93003.61,
+    "current_open_pnl": 68.69
   },
   "trades": [
     {
@@ -383,11 +383,11 @@
     "shares": 3434.4023,
     "avg_cost": 13.53,
     "total_invested": 46467.46,
-    "market_value": 46467.46,
-    "current_pnl": 0.0,
-    "current_pnl_pct": 0.0,
+    "market_value": 46536.15,
+    "current_pnl": 68.69,
+    "current_pnl_pct": 0.15,
     "position_taken": "HALF",
     "ma60_alerted": false
   },
-  "updated_at": "2026-10-09T12:08:41Z"
+  "updated_at": "2026-10-12T13:37:05Z"
 }

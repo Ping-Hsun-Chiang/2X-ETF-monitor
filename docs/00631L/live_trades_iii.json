@@ -1,15 +1,15 @@
 {
   "stock_id": "00631L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-10-08",
+  "as_of_date": "2026-10-12",
   "summary": {
     "num_completed_rounds": 7,
     "total_realized_pnl": 13150.37,
     "total_deposits": 80000.0,
     "capital_pool": 46575.18,
-    "market_value": 46575.18,
-    "total_assets": 93150.36,
-    "current_open_pnl": 0.0
+    "market_value": 46563.79,
+    "total_assets": 93138.97,
+    "current_open_pnl": -11.39
   },
   "trades": [
     {
@@ -346,11 +346,11 @@
     "shares": 1138.7575,
     "avg_cost": 40.9,
     "total_invested": 46575.18,
-    "market_value": 46575.18,
-    "current_pnl": 0.0,
-    "current_pnl_pct": 0.0,
+    "market_value": 46563.79,
+    "current_pnl": -11.39,
+    "current_pnl_pct": -0.02,
     "position_taken": "HALF",
     "ma60_alerted": false
   },
-  "updated_at": "2026-10-09T12:08:35Z"
+  "updated_at": "2026-10-12T13:37:00Z"
 }

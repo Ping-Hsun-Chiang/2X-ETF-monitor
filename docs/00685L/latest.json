@@ -1,21 +1,21 @@
 {
   "stock_id": "00685L",
-  "date": "2026-10-08",
-  "close": 13.53,
-  "ma5": 13.624,
-  "ma20": 12.693,
-  "ma60": 11.7725,
+  "date": "2026-10-12",
+  "close": 13.55,
+  "ma5": 13.71,
+  "ma20": 12.751,
+  "ma60": 11.7958,
   "position": "HALF",
   "position_zh": "半倉",
-  "signal": "BUY_TRANCHE_1",
-  "signal_zh": "第一批買進（跌破週線 · 投池 × 0.5）",
+  "signal": "NONE",
+  "signal_zh": "無訊號",
   "live_start_date": "2026-07-13",
   "shares": 3018.8005,
   "avg_cost": 13.53,
   "capital_pool": 40844.37,
-  "total_assets": 81688.74,
-  "current_pnl": 0.0,
-  "current_pnl_pct": 0.0,
+  "total_assets": 81749.12,
+  "current_pnl": 60.38,
+  "current_pnl_pct": 0.15,
   "ma60_alerted_this_round": false,
   "next_actions": [
     {
@@ -29,15 +29,15 @@
       "action": "BUY_TRANCHE_2",
       "action_zh": "第二批加碼",
       "condition_zh": "收盤跌破 MA20",
-      "trigger_price": 12.693,
+      "trigger_price": 12.751,
       "amount": 40844.37
     },
     {
       "action": "ALERT_MA60",
       "action_zh": "MA60 警戒（僅提示，不自動加碼）",
       "condition_zh": "收盤跌破 MA60",
-      "trigger_price": 11.7725
+      "trigger_price": 11.7958
     }
   ],
-  "updated_at": "2026-10-09T12:08:40Z"
+  "updated_at": "2026-10-12T13:37:04Z"
 }
