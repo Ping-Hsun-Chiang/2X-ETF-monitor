@@ -1,10 +1,10 @@
 {
   "stock_id": "00631L",
-  "date": "2026-10-12",
-  "close": 40.89,
-  "ma5": 41.394,
-  "ma20": 38.5755,
-  "ma60": 35.8892,
+  "date": "2026-10-13",
+  "close": 39.3,
+  "ma5": 40.946,
+  "ma20": 38.683,
+  "ma60": 35.9243,
   "position": "HALF",
   "position_zh": "半倉",
   "signal": "NONE",
@@ -13,9 +13,9 @@
   "shares": 1009.0384,
   "avg_cost": 40.9,
   "capital_pool": 41269.67,
-  "total_assets": 82529.25,
-  "current_pnl": -10.09,
-  "current_pnl_pct": -0.02,
+  "total_assets": 80924.88,
+  "current_pnl": -1614.46,
+  "current_pnl_pct": -3.91,
   "ma60_alerted_this_round": false,
   "next_actions": [
     {
@@ -29,15 +29,15 @@
       "action": "BUY_TRANCHE_2",
       "action_zh": "第二批加碼",
       "condition_zh": "收盤跌破 MA20",
-      "trigger_price": 38.5755,
+      "trigger_price": 38.683,
       "amount": 41269.67
     },
     {
       "action": "ALERT_MA60",
       "action_zh": "MA60 警戒（僅提示，不自動加碼）",
       "condition_zh": "收盤跌破 MA60",
-      "trigger_price": 35.8892
+      "trigger_price": 35.9243
     }
   ],
-  "updated_at": "2026-10-12T13:36:59Z"
+  "updated_at": "2026-10-13T13:00:08Z"
 }

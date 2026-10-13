@@ -5594,6 +5594,10 @@
         {
           "date": "2026-10-12",
           "total_assets": 4445406.55
+        },
+        {
+          "date": "2026-10-13",
+          "total_assets": 4352471.23
         }
       ],
       "trades": [
@@ -6325,13 +6329,13 @@
       ],
       "total_deposits": 1400000.0,
       "total_dividends_received": 149239.33,
-      "end_close": 114.8,
+      "end_close": 112.4,
       "end_shares": 38723.0536,
-      "end_market_value": 4445406.55,
+      "end_market_value": 4352471.23,
       "end_pending_cash": 0.0,
-      "end_total_assets": 4445406.55,
+      "end_total_assets": 4352471.23,
       "avg_cost_per_share": 36.1542,
-      "return_pct": 217.53,
+      "return_pct": 210.89,
       "months_invested": 70,
       "num_dividend_events": 12,
       "num_split_events": 1
@@ -11879,6 +11883,10 @@
         {
           "date": "2026-10-12",
           "total_assets": 7923947.03
+        },
+        {
+          "date": "2026-10-13",
+          "total_assets": 7606052.19
         }
       ],
       "trades": [
@@ -12374,12 +12382,12 @@
         }
       ],
       "total_deposits": 1400000.0,
-      "end_close": 118.4,
+      "end_close": 113.65,
       "end_shares": 66925.2283,
-      "end_market_value": 7923947.03,
-      "end_total_assets": 7923947.03,
+      "end_market_value": 7606052.19,
+      "end_total_assets": 7606052.19,
       "avg_cost_per_share": 20.9189,
-      "return_pct": 466.0,
+      "return_pct": 443.29,
       "months_invested": 70
     },
     {
@@ -17925,16 +17933,20 @@
         {
           "date": "2026-10-12",
           "total_assets": 4264859.58
+        },
+        {
+          "date": "2026-10-13",
+          "total_assets": 4179201.72
         }
       ],
       "total_deposits": 1400000.0,
-      "end_close": 118.4,
+      "end_close": 113.65,
       "end_shares": 18033.2329,
       "end_avg_cost": 118.1,
       "end_capital_pool": 2129724.8,
-      "end_market_value": 2135134.77,
-      "end_total_assets": 4264859.58,
-      "return_pct": 204.63,
+      "end_market_value": 2049476.92,
+      "end_total_assets": 4179201.72,
+      "return_pct": 198.51,
       "months_invested": 70,
       "num_buys": 40,
       "num_sells": 25,
@@ -23483,18 +23495,22 @@
         {
           "date": "2026-10-12",
           "total_assets": 3106989.38
+        },
+        {
+          "date": "2026-10-13",
+          "total_assets": 3044586.85
         }
       ],
       "total_deposits": 1400000.0,
-      "end_close": 118.4,
-      "end_shares": 13137.3758,
-      "end_avg_cost": 118.1,
-      "end_capital_pool": 1551524.09,
-      "end_market_value": 1555465.3,
-      "end_total_assets": 3106989.38,
-      "return_pct": 121.93,
+      "end_close": 113.65,
+      "end_shares": 26789.1496,
+      "end_avg_cost": 115.8323,
+      "end_capital_pool": 0.0,
+      "end_market_value": 3044586.85,
+      "end_total_assets": 3044586.85,
+      "return_pct": 117.47,
       "months_invested": 70,
-      "num_buys": 55,
+      "num_buys": 56,
       "num_sells": 38,
       "num_completed_rounds": 38
     }
@@ -23509,5 +23525,5 @@
     }
   ],
   "stock_id": "00663L",
-  "updated_at": "2026-10-12T13:37:11Z"
+  "updated_at": "2026-10-13T13:00:13Z"
 }
