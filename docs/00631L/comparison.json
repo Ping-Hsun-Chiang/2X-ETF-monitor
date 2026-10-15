@@ -634,24 +634,24 @@
     {
       "year": 2026,
       "start_date": "2026-01-02",
-      "end_date": "2026-10-14",
+      "end_date": "2026-10-15",
       "baseline_adjusted": 17.0568,
       "trigger_first_pct": 5.0,
       "trigger_second_pct": 10.0,
       "strategy_a": {
         "months_deposited": 10,
         "total_deposits": 200000.0,
-        "end_close": 39.78,
-        "end_capital_pool": 136883.81,
-        "end_shares": 3346.7925,
-        "end_avg_cost": 40.9,
-        "end_market_value": 133135.4,
-        "end_total_assets": 270019.22,
-        "year_gain": 70019.22,
-        "return_pct": 35.01,
+        "end_close": 37.14,
+        "end_capital_pool": 0.0,
+        "end_shares": 7032.4094,
+        "end_avg_cost": 38.9294,
+        "end_market_value": 261183.68,
+        "end_total_assets": 261183.68,
+        "year_gain": 61183.68,
+        "return_pct": 30.59,
         "realized_pnl": 73767.62,
-        "unrealized_pnl": -3748.41,
-        "num_trades": 27,
+        "unrealized_pnl": -12583.94,
+        "num_trades": 28,
         "num_completed_rounds": 9,
         "trades": [
           {
@@ -896,6 +896,15 @@
             "capital_after": 136883.81,
             "shares_after": 3346.7925,
             "avg_cost_after": 40.9
+          },
+          {
+            "date": "2026-10-15",
+            "action": "BUY_TRANCHE_2",
+            "price": 37.14,
+            "invested_amount": 136883.81,
+            "capital_after": 0.0,
+            "shares_after": 7032.4094,
+            "avg_cost_after": 38.9294
           }
         ],
         "rounds": [
@@ -1012,7 +1021,7 @@
       "strategy_b": {
         "months_deposited": 10,
         "total_deposits": 200000.0,
-        "end_close": 39.78,
+        "end_close": 37.14,
         "end_capital_pool": 200000.0,
         "end_shares": 0.0,
         "end_avg_cost": 0.0,
@@ -1030,5 +1039,5 @@
     }
   ],
   "note": "兩策略內部皆用 adjusted (還原後) 價位計算。策略 B 的 baseline = 該年第一個交易日 adjusted close。",
-  "updated_at": "2026-10-14T10:41:06Z"
+  "updated_at": "2026-10-15T10:24:34Z"
 }
