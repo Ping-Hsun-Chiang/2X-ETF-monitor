@@ -625,24 +625,24 @@
     {
       "year": 2026,
       "start_date": "2026-01-02",
-      "end_date": "2026-10-19",
+      "end_date": "2026-10-20",
       "baseline_adjusted": 5.5708,
       "trigger_first_pct": 5.0,
       "trigger_second_pct": 10.0,
       "strategy_a": {
         "months_deposited": 10,
         "total_deposits": 200000.0,
-        "end_close": 12.07,
+        "end_close": 11.84,
         "end_capital_pool": 0.0,
         "end_shares": 20006.6927,
         "end_avg_cost": 12.8637,
-        "end_market_value": 241480.78,
-        "end_total_assets": 241480.78,
-        "year_gain": 41480.78,
-        "return_pct": 20.74,
+        "end_market_value": 236879.24,
+        "end_total_assets": 236879.24,
+        "year_gain": 36879.24,
+        "return_pct": 18.44,
         "realized_pnl": 57360.7,
-        "unrealized_pnl": -15879.91,
-        "num_trades": 25,
+        "unrealized_pnl": -20481.45,
+        "num_trades": 26,
         "num_completed_rounds": 8,
         "trades": [
           {
@@ -869,6 +869,15 @@
             "capital_after": 0.0,
             "shares_after": 20006.6927,
             "avg_cost_after": 12.8637
+          },
+          {
+            "date": "2026-10-20",
+            "action": "ALERT_MA60",
+            "price": 11.84,
+            "invested_amount": 0.0,
+            "capital_after": 0.0,
+            "shares_after": 20006.6927,
+            "avg_cost_after": 12.8637
           }
         ],
         "rounds": [
@@ -973,7 +982,7 @@
       "strategy_b": {
         "months_deposited": 10,
         "total_deposits": 200000.0,
-        "end_close": 12.07,
+        "end_close": 11.84,
         "end_capital_pool": 200000.0,
         "end_shares": 0.0,
         "end_avg_cost": 0.0,
@@ -991,5 +1000,5 @@
     }
   ],
   "note": "兩策略內部皆用 adjusted (還原後) 價位計算。策略 B 的 baseline = 該年第一個交易日 adjusted close。",
-  "updated_at": "2026-10-19T11:20:10Z"
+  "updated_at": "2026-10-20T10:28:52Z"
 }

@@ -3,7 +3,7 @@
   "strategy": "I",
   "monthly_deposit": 20000.0,
   "start_date": "2016-10-05",
-  "end_date": "2026-10-19",
+  "end_date": "2026-10-20",
   "segments": [
     {
       "key": "2016",
@@ -2082,20 +2082,20 @@
       "key": "2026",
       "label": "2026",
       "start_date": "2026-01-02",
-      "end_date": "2026-10-19",
+      "end_date": "2026-10-20",
       "monthly_deposit": 20000.0,
       "months_deposited": 10,
       "total_deposits": 200000.0,
-      "end_close": 319.1,
+      "end_close": 313.0,
       "end_capital_pool": 0.0,
       "end_shares": 811.1685,
       "end_avg_cost": 339.9845,
-      "end_market_value": 258843.87,
-      "end_total_assets": 258843.87,
+      "end_market_value": 253895.74,
+      "end_total_assets": 253895.74,
       "realized_pnl": 75784.74,
-      "unrealized_pnl": -16940.87,
-      "year_gain": 58843.87,
-      "return_pct": 29.42,
+      "unrealized_pnl": -21888.99,
+      "year_gain": 53895.74,
+      "return_pct": 26.95,
       "trades": [
         {
           "date": "2026-01-09",
@@ -2376,6 +2376,16 @@
           "capital_after": 0.0,
           "shares_after": 811.1685,
           "avg_cost_after": 339.9845
+        },
+        {
+          "date": "2026-10-20",
+          "action": "ALERT_MA60",
+          "action_zh": "MA60 警戒",
+          "price": 313.0,
+          "invested_amount": 0.0,
+          "capital_after": 0.0,
+          "shares_after": 811.1685,
+          "avg_cost_after": 339.9845
         }
       ],
       "rounds": [
@@ -2508,5 +2518,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-19T11:20:13Z"
+  "updated_at": "2026-10-20T10:28:56Z"
 }

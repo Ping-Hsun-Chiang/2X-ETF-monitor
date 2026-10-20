@@ -1,15 +1,15 @@
 {
   "stock_id": "00663L",
   "live_start_date": "2026-07-13",
-  "as_of_date": "2026-10-19",
+  "as_of_date": "2026-10-20",
   "summary": {
     "num_completed_rounds": 1,
     "total_realized_pnl": 1694.27,
     "total_deposits": 80000.0,
     "capital_pool": 0.0,
-    "market_value": 76690.94,
-    "total_assets": 76690.94,
-    "current_open_pnl": -5003.34
+    "market_value": 75272.08,
+    "total_assets": 75272.08,
+    "current_open_pnl": -6422.19
   },
   "trades": [
     {
@@ -77,6 +77,17 @@
       "invested_amount": 40847.14,
       "shares_after": 727.618,
       "avg_cost_after": 112.2763
+    },
+    {
+      "date": "2026-10-20",
+      "action": "ALERT_MA60",
+      "action_zh": "MA60 警戒",
+      "price": 103.45,
+      "capital_before": 0.0,
+      "capital_after": 0.0,
+      "invested_amount": 0.0,
+      "shares_after": 727.618,
+      "avg_cost_after": 112.2763
     }
   ],
   "rounds": [
@@ -102,11 +113,11 @@
     "shares": 727.618,
     "avg_cost": 112.2763,
     "total_invested": 81694.27,
-    "market_value": 76690.94,
-    "current_pnl": -5003.34,
-    "current_pnl_pct": -6.12,
+    "market_value": 75272.08,
+    "current_pnl": -6422.19,
+    "current_pnl_pct": -7.86,
     "position_taken": "FULL",
-    "ma60_alerted": false
+    "ma60_alerted": true
   },
-  "updated_at": "2026-10-19T11:20:11Z"
+  "updated_at": "2026-10-20T10:28:54Z"
 }
