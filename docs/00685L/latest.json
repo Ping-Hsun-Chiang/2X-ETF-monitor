@@ -1,21 +1,21 @@
 {
   "stock_id": "00685L",
-  "date": "2026-10-20",
-  "close": 11.84,
-  "ma5": 12.338,
-  "ma20": 12.9345,
-  "ma60": 11.9215,
+  "date": "2026-10-21",
+  "close": 12.13,
+  "ma5": 12.124,
+  "ma20": 12.92,
+  "ma60": 11.9412,
   "position": "FULL",
   "position_zh": "滿倉",
-  "signal": "ALERT_MA60",
-  "signal_zh": "警戒：跌破季線（考慮是否手動加碼）",
+  "signal": "NONE",
+  "signal_zh": "無訊號",
   "live_start_date": "2026-07-13",
   "shares": 6350.3153,
   "avg_cost": 12.8637,
   "capital_pool": 0.0,
-  "total_assets": 75187.73,
-  "current_pnl": -6501.01,
-  "current_pnl_pct": -7.96,
+  "total_assets": 77029.32,
+  "current_pnl": -4659.42,
+  "current_pnl_pct": -5.7,
   "ma60_alerted_this_round": true,
   "next_actions": [
     {
@@ -26,5 +26,5 @@
       "price_note": "依目前持股均價反推，若之後再加碼、均價與此出場價都會跟著變動"
     }
   ],
-  "updated_at": "2026-10-20T10:28:51Z"
+  "updated_at": "2026-10-21T10:40:17Z"
 }

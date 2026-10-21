@@ -1,21 +1,21 @@
 {
   "stock_id": "00675L",
-  "date": "2026-10-20",
-  "close": 313.0,
-  "ma5": 326.22,
-  "ma20": 342.3875,
-  "ma60": 315.8875,
+  "date": "2026-10-21",
+  "close": 320.05,
+  "ma5": 320.37,
+  "ma20": 341.93,
+  "ma60": 316.395,
   "position": "FULL",
   "position_zh": "滿倉",
-  "signal": "ALERT_MA60",
-  "signal_zh": "警戒：跌破季線（考慮是否手動加碼）",
+  "signal": "NONE",
+  "signal_zh": "無訊號",
   "live_start_date": "2026-07-13",
   "shares": 240.3957,
   "avg_cost": 339.9845,
   "capital_pool": 0.0,
-  "total_assets": 75243.87,
-  "current_pnl": -6486.96,
-  "current_pnl_pct": -7.94,
+  "total_assets": 76938.66,
+  "current_pnl": -4792.17,
+  "current_pnl_pct": -5.86,
   "ma60_alerted_this_round": true,
   "next_actions": [
     {
@@ -26,5 +26,5 @@
       "price_note": "依目前持股均價反推，若之後再加碼、均價與此出場價都會跟著變動"
     }
   ],
-  "updated_at": "2026-10-20T10:28:55Z"
+  "updated_at": "2026-10-21T10:40:21Z"
 }
