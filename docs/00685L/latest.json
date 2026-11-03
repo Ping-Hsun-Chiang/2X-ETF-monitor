@@ -1,10 +1,10 @@
 {
   "stock_id": "00685L",
-  "date": "2026-11-02",
-  "close": 11.17,
-  "ma5": 11.646,
-  "ma20": 12.581,
-  "ma60": 12.097,
+  "date": "2026-11-03",
+  "close": 10.31,
+  "ma5": 11.358,
+  "ma20": 12.4415,
+  "ma60": 12.094,
   "position": "FULL",
   "position_zh": "滿倉",
   "signal": "NONE",
@@ -13,10 +13,10 @@
   "shares": 6350.3153,
   "avg_cost": 12.8637,
   "capital_pool": 20000.0,
-  "total_assets": 90933.02,
-  "current_pnl": -10755.72,
-  "current_pnl_pct": -13.17,
+  "total_assets": 85471.75,
+  "current_pnl": -16216.99,
+  "current_pnl_pct": -19.85,
   "ma60_alerted_this_round": true,
   "next_actions": [],
-  "updated_at": "2026-11-02T13:55:30Z"
+  "updated_at": "2026-11-03T13:04:00Z"
 }
