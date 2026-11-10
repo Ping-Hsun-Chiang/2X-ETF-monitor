@@ -120,11 +120,11 @@
       "V": 26.29
     },
     "2026": {
-      "I": 0.66,
-      "II": -14.69,
-      "III": -10.65,
-      "IV": -14.71,
-      "V": -10.68
+      "I": 5.29,
+      "II": -10.83,
+      "III": -6.59,
+      "IV": -10.85,
+      "V": -6.62
     }
   },
   "results": {
@@ -32064,16 +32064,20 @@
           {
             "date": "2026-11-09",
             "total_assets": 221450.1
+          },
+          {
+            "date": "2026-11-10",
+            "total_assets": 231645.45
           }
         ],
         "total_deposits": 220000.0,
-        "end_close": 82.0,
+        "end_close": 86.15,
         "end_capital_pool": 20000.0,
         "end_shares": 2456.7086,
         "end_avg_cost": 112.2763,
-        "end_market_value": 201450.1,
-        "end_total_assets": 221450.1,
-        "return_pct": 0.66,
+        "end_market_value": 211645.45,
+        "end_total_assets": 231645.45,
+        "return_pct": 5.29,
         "num_trades": 26,
         "num_buys": 17,
         "num_sells": 9,
@@ -33232,16 +33236,20 @@
           {
             "date": "2026-11-09",
             "total_assets": 187677.72
+          },
+          {
+            "date": "2026-11-10",
+            "total_assets": 196163.85
           }
         ],
         "total_deposits": 220000.0,
-        "end_close": 82.0,
+        "end_close": 86.15,
         "end_capital_pool": 20000.0,
         "end_shares": 2044.8502,
         "end_avg_cost": 115.8323,
-        "end_market_value": 167677.72,
-        "end_total_assets": 187677.72,
-        "return_pct": -14.69,
+        "end_market_value": 176163.85,
+        "end_total_assets": 196163.85,
+        "return_pct": -10.83,
         "num_trades": 30,
         "num_buys": 19,
         "num_sells": 11,
@@ -34400,16 +34408,20 @@
           {
             "date": "2026-11-09",
             "total_assets": 196560.34
+          },
+          {
+            "date": "2026-11-10",
+            "total_assets": 205496.02
           }
         ],
         "total_deposits": 220000.0,
-        "end_close": 82.0,
+        "end_close": 86.15,
         "end_capital_pool": 20000.0,
         "end_shares": 2153.1749,
         "end_avg_cost": 115.8323,
-        "end_market_value": 176560.34,
-        "end_total_assets": 196560.34,
-        "return_pct": -10.65,
+        "end_market_value": 185496.02,
+        "end_total_assets": 205496.02,
+        "return_pct": -6.59,
         "num_trades": 30,
         "num_buys": 19,
         "num_sells": 11,
@@ -35536,16 +35548,20 @@
           {
             "date": "2026-11-09",
             "total_assets": 187638.66
+          },
+          {
+            "date": "2026-11-10",
+            "total_assets": 196122.81
           }
         ],
         "total_deposits": 220000.0,
-        "end_close": 82.0,
+        "end_close": 86.15,
         "end_capital_pool": 20000.0,
         "end_shares": 2044.3739,
         "end_avg_cost": 115.8323,
-        "end_market_value": 167638.66,
-        "end_total_assets": 187638.66,
-        "return_pct": -14.71,
+        "end_market_value": 176122.81,
+        "end_total_assets": 196122.81,
+        "return_pct": -10.85,
         "num_trades": 27,
         "num_buys": 17,
         "num_sells": 10,
@@ -36672,16 +36688,20 @@
           {
             "date": "2026-11-09",
             "total_assets": 196504.7
+          },
+          {
+            "date": "2026-11-10",
+            "total_assets": 205437.56
           }
         ],
         "total_deposits": 220000.0,
-        "end_close": 82.0,
+        "end_close": 86.15,
         "end_capital_pool": 20000.0,
         "end_shares": 2152.4963,
         "end_avg_cost": 115.8323,
-        "end_market_value": 176504.7,
-        "end_total_assets": 196504.7,
-        "return_pct": -10.68,
+        "end_market_value": 185437.56,
+        "end_total_assets": 205437.56,
+        "return_pct": -6.62,
         "num_trades": 27,
         "num_buys": 17,
         "num_sells": 10,
@@ -36690,5 +36710,5 @@
       }
     }
   },
-  "updated_at": "2026-11-09T14:27:31Z"
+  "updated_at": "2026-11-10T13:49:40Z"
 }
