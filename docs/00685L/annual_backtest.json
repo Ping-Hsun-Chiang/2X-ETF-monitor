@@ -3,7 +3,7 @@
   "strategy": "I",
   "monthly_deposit": 20000.0,
   "start_date": "2017-03-30",
-  "end_date": "2026-11-11",
+  "end_date": "2026-11-12",
   "segments": [
     {
       "key": "2017",
@@ -2246,20 +2246,20 @@
       "key": "2026_post_split",
       "label": "2026 分割後",
       "start_date": "2026-07-07",
-      "end_date": "2026-11-11",
+      "end_date": "2026-11-12",
       "monthly_deposit": 20000.0,
       "months_deposited": 5,
       "total_deposits": 100000.0,
-      "end_close": 10.54,
+      "end_close": 10.05,
       "end_capital_pool": 20000.0,
       "end_shares": 6219.0359,
       "end_avg_cost": 12.8637,
-      "end_market_value": 65548.64,
-      "end_total_assets": 85548.64,
+      "end_market_value": 62501.31,
+      "end_total_assets": 82501.31,
       "realized_pnl": 0,
-      "unrealized_pnl": -14451.36,
-      "year_gain": -14451.36,
-      "return_pct": -14.45,
+      "unrealized_pnl": -17498.69,
+      "year_gain": -17498.69,
+      "return_pct": -17.5,
       "trades": [
         {
           "date": "2026-10-08",
@@ -2295,5 +2295,5 @@
       "rounds": []
     }
   ],
-  "updated_at": "2026-11-11T13:00:26Z"
+  "updated_at": "2026-11-12T14:01:57Z"
 }
