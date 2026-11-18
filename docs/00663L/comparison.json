@@ -625,7 +625,7 @@
     {
       "year": 2026,
       "start_date": "2026-01-02",
-      "end_date": "2026-11-17",
+      "end_date": "2026-11-18",
       "baseline_adjusted": 49.0,
       "trigger_first_pct": 5.0,
       "trigger_second_pct": 10.0,
@@ -1039,5 +1039,5 @@
     }
   ],
   "note": "兩策略內部皆用 adjusted (還原後) 價位計算。策略 B 的 baseline = 該年第一個交易日 adjusted close。",
-  "updated_at": "2026-11-17T14:57:51Z"
+  "updated_at": "2026-11-18T14:38:33Z"
 }

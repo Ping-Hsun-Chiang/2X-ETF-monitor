@@ -1,10 +1,10 @@
 {
   "stock_id": "00663L",
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "close": 76.0,
-  "ma5": 85.19,
-  "ma20": 92.7725,
-  "ma60": 103.035,
+  "ma5": 81.96,
+  "ma20": 91.3025,
+  "ma60": 102.675,
   "position": "FULL",
   "position_zh": "滿倉",
   "signal": "NONE",
@@ -18,6 +18,6 @@
   "current_pnl_pct": -34.39,
   "ma60_alerted_this_round": false,
   "next_actions": [],
-  "updated_at": "2026-11-17T14:57:49Z",
+  "updated_at": "2026-11-18T14:38:31Z",
   "strategy": "III"
 }
